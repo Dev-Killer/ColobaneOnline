@@ -60,21 +60,25 @@
                 <div class="col-md-6 col-sm-6 create-new-account center-block">
                     <h4 class="checkout-subtitle">Se Connecter</h4>
                     <p class="text title-tag-line">Salut, Bienvenue sur votre compte.</p>
-                    <form class="register-form outer-top-xs" role="form">
+                    <span class="erreur">${error}</span><br>
+                    <span class="erreur">${adresse}</span><br>
+                    <span class="erreur">${password}</span><br>
+        
+                    <form method="POST" action="/ColobaneOnline/connexion" class="register-form outer-top-xs" role="form">
                         <div class="form-group">
-                            <label class="info-title" for="exampleInputEmail1">Email <span>*</span></label>
-                            <input type="email" class="form-control unicase-form-control text-input" id="exampleInputEmail1" required>
+                            <label class="info-title" for="adresse">Email <span>*</span></label>
+                            <input type="email" name="adresse" class="form-control unicase-form-control text-input" id="adresse" required>
                         </div>
                         <div class="form-group">
-                            <label class="info-title" for="exampleInputEmail1">Password <span>*</span></label>
-                            <input type="password" class="form-control unicase-form-control text-input" id="exampleInputEmail1" required>
+                            <label class="info-title" for="password">Password <span>*</span></label>
+                            <input type="password" name="password" class="form-control unicase-form-control text-input" id="password" required>
                         </div>
                         <div class="form-group">
                             <label class="info-title ">Profil <span>*</span></label>
-                            <select class="form-control" >
+                            <select name="profile" class="form-control" >
                                 <option>--Select options--</option>
-                                <option>Vendeur</option>
-                                <option>Acheteur</option>
+                                <option>vendeur</option>
+                                <option>acheteur</option>
                             </select>
                         </div>
                         <div class="col-md-8 center-block">

@@ -14,7 +14,6 @@
 
         <div class="container">
             <h2 class="text-center">Enregistrer un utilisateur</h2>
-             <span class="erreur">${url}</span>
              <span class="erreur">${inconnu}</span>
 
             <span class="erreur">${form.erreurs['nom']}</span>

@@ -58,43 +58,46 @@
             <div class="row">
                 <!-- create a new account as seller-->
                 <div class="col-md-6 col-sm-6 create-new-account center-block">
-                    <h4 class="checkout-subtitle">Créer un nouveau Compte</h4>
-                    <p class="text title-tag-line">Créer votre nouveau Compte.</p>
-                    <form class="register-form outer-top-xs" role="form">
+                    <h4 class="checkout-subtitle">Céer un nouveau Compte</h4>
+                    <p class="text title-tag-line">Céer votre nouveau Compte.</p>
+                     <span class="erreur">${inconnu}</span>
+
+            <span class="erreur">${form.erreurs['nom']}</span>
+            <span class="erreur">${form.erreurs['prenom']}</span>
+            <span class="erreur">${form.erreurs['password']}</span>
+            <span class="erreur">${form.erreurs['adresse']}</span>
+
+                    <form method="post" action="/ColobaneOnline/inscription" class="register-form outer-top-xs" role="form">
                         <div class="form-group">
-                            <label class="info-title" for="exampleInputEmail2">Nom <span>*</span></label>
-                            <input type="text" class="form-control unicase-form-control text-input" id="exampleInputEmail2" required>
+                            <label class="info-title" for="nom">Nom <span>*</span></label>
+                            <input type="text" name="nom" class="form-control unicase-form-control text-input" id="nom" required>
                         </div>
                         <div class="form-group">
-                            <label class="info-title" for="exampleInputEmail1">Prénom <span>*</span></label>
-                            <input type="text" class="form-control unicase-form-control text-input" id="exampleInputEmail1" required>
+                            <label class="info-title" for="prenom">Prénom <span>*</span></label>
+                            <input type="text" name="prenom" class="form-control unicase-form-control text-input" id="prenom" required>
                         </div>
                         <div class="form-group">
-                            <label class="info-title" for="exampleInputEmail1">Adresse <span>*</span></label>
-                            <input type="text" class="form-control unicase-form-control text-input" id="exampleInputEmail1" required>
+                            <label class="info-title" for="adresse">Adresse(email) <span>*</span></label>
+                            <input type="email" name="adresse" class="form-control unicase-form-control text-input" id="adresse" required>
                         </div>
                         <div class="form-group">
-                            <label class="info-title" for="exampleInputEmail1">Numéro téléphone <span>*</span></label>
-                            <input type="text" class="form-control unicase-form-control text-input" id="exampleInputEmail1" required>
+                            <label class="info-title" for="phone">Numéro de téléphone <span>*</span></label>
+                            <input type="text" name="phone" class="form-control unicase-form-control text-input" id="phone" required>
                         </div>
                         <div class="form-group">
-                            <label class="info-title" for="exampleInputEmail1">Email <span>*</span></label>
-                            <input type="email" class="form-control unicase-form-control text-input" id="exampleInputEmail1" required>
+                            <label class="info-title" for="password">Password <span>*</span></label>
+                            <input type="password" name="password" class="form-control unicase-form-control text-input" id="password" required>
                         </div>
                         <div class="form-group">
-                            <label class="info-title" for="exampleInputEmail1">Password <span>*</span></label>
-                            <input type="password" class="form-control unicase-form-control text-input" id="exampleInputEmail1" required>
-                        </div>
-                        <div class="form-group">
-                            <label class="info-title" for="exampleInputEmail1">Confirm Password <span>*</span></label>
-                            <input type="password" class="form-control unicase-form-control text-input" id="exampleInputEmail1" required>
+                            <label class="info-title" for="confirmation">Confirm Password <span>*</span></label>
+                            <input type="password" name="confirmation" class="form-control unicase-form-control text-input" id="confirmation" required>
                         </div>
                         <div class="form-group">
                             <label class="info-title ">Profil <span>*</span></label>
-                            <select class="form-control " required>
+                            <select name=profile class="form-control " required>
                                 <option>--Select options--</option>
-                                <option>Vendeur</option>
-                                <option>Acheteur</option>
+                                <option>vendeur</option>
+                                <option>acheteur</option>
                             </select>
                         </div>
                         <div class="form-group">
@@ -111,7 +114,7 @@
                     </form>
                     <h4 class="checkout-subtitle"></h4>
                     <div class="col-lg-7 center-block title-tag-line">
-                        <p><span style="color: black">Vous possédez déjà  un compte ? <span></span><a href="/Colobane_Online/login">Identifiez-vous</a></p>
+                        <p><span style="color: black">Vous possédez déjà un compte ? <span></span><a href="/Colobane_Online/login">Identifiez-vous</a></p>
                     </div>
                 </div>
                 <!-- create a new account -->			<!-- /.row -->
