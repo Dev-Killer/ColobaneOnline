@@ -25,7 +25,7 @@ import javax.servlet.http.HttpSession;
  */
 public class Connexion extends HttpServlet {
 
-    public static final String VUE = "/WEB-INF/connexion.jsp";
+    public static final String VUE = "/WEB-INF/login.jsp";
     public static final String CHAMP_PRENOM = "prenom";
     public static final String CHAMP_PROFILE = "profile";
     public static final String CHAMP_PASSWORD = "password";
@@ -45,15 +45,15 @@ public class Connexion extends HttpServlet {
         String password = request.getParameter("password");
         String profile = request.getParameter("profile");
         ValidationForm form = new ValidationForm();
-        password=Sha256.sha256(password);
+        password = Sha256.sha256(password);
         if (profile.equals("acheteur")) {
             AcheteurQueries connexion = new AcheteurQueries();
             try {
-                int[] result = connexion.findAcheteur(adresse,password);
-                
-                request.setAttribute("adresse",adresse);
-                request.setAttribute("password",password);
-                
+                int[] result = connexion.findAcheteur(adresse, password);
+
+                request.setAttribute("adresse", adresse);
+                request.setAttribute("password", password);
+
                 if (result[0] == 1) {
                     HttpSession session = request.getSession();
                     session.setAttribute("id", result[1]);
@@ -69,11 +69,11 @@ public class Connexion extends HttpServlet {
         } else if (profile.equals("vendeur")) {
             VendeurQueries connexion = new VendeurQueries();
             try {
-                int[] result = connexion.findVendeur(adresse,password);
-                
-                request.setAttribute("adresse",adresse);
-                request.setAttribute("password",password);
-                
+                int[] result = connexion.findVendeur(adresse, password);
+
+                request.setAttribute("adresse", adresse);
+                request.setAttribute("password", password);
+
                 if (result[0] == 1) {
                     HttpSession session = request.getSession();
                     session.setAttribute("id", result[1]);
@@ -87,7 +87,7 @@ public class Connexion extends HttpServlet {
                 Logger.getLogger(Connexion.class.getName()).log(Level.SEVERE, null, ex);
             }
         } else {
-            request.setAttribute("profile","Profile inconnu");
+            request.setAttribute("profile", "Profile inconnu");
             this.getServletContext().getRequestDispatcher(VUE).forward(request, response);
         }
         this.getServletContext().getRequestDispatcher(VUE).forward(request, response);
