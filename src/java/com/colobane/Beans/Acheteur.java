@@ -10,6 +10,13 @@ public class Acheteur {
     
     public java.lang.String prenom;
     public java.lang.String password;
+
+    public Acheteur(String nom, String prenom, String password, String telephone) {
+        this.nom = nom;
+        this.prenom = prenom;
+        this.password = password;
+        this.telephone = telephone;
+    }
     public java.lang.String adresse;
     public java.lang.String telephone;
 

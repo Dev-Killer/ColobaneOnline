@@ -7,11 +7,12 @@ package com.colobane.Bdd;
 
 import com.colobane.Beans.Acheteur;
 import com.colobane.utils.ConnexionDB;
-import com.colobane.utils.Sha256;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
+import java.util.HashMap;
 
 /**
  *
@@ -20,13 +21,13 @@ import java.sql.SQLException;
 public class AcheteurQueries {
 
     Connection con = ConnexionDB.connecterDB();
-
+    
     public void addAcheteur(Acheteur acheteur) {
         try {
             PreparedStatement preparedStatement = con.prepareStatement("INSERT INTO acheteur (NOM,PRENOM,PASSWORD,ADRESSE,TELEPHONE) VALUES(?,?,?,?,?);");
             preparedStatement.setString(1, acheteur.getNom());
             preparedStatement.setString(2, acheteur.getPrenom());
-            preparedStatement.setString(3, Sha256.sha256(acheteur.getPassword()));
+            preparedStatement.setString(3,acheteur.getPassword());
             preparedStatement.setString(4, acheteur.getAdresse());
             preparedStatement.setString(5, acheteur.getTelephone());
 
@@ -37,24 +38,30 @@ public class AcheteurQueries {
 
     }
 
-    public boolean findAcheteur(Acheteur acheteur) throws SQLException {
+    public int[] findAcheteur(String email,String password) throws SQLException {
         ResultSet rs = null;
-
+        int resultSearch[] = new int[2];   
         try {
-            PreparedStatement preparedStatement = con.prepareStatement("SELECT *FROM acheteur where  NOM=? and PASSWORD=? ;");
-            preparedStatement.setString(1, acheteur.getNom());
-            preparedStatement.setString(2, acheteur.getPassword());
-
+            PreparedStatement preparedStatement = con.prepareStatement("SELECT *FROM acheteur where  ADRESSE=? and PASSWORD=? ;");
+            preparedStatement.setString(1,email);
+            preparedStatement.setString(2,password);
             preparedStatement.executeQuery();
 
+            rs = preparedStatement.executeQuery(); 
+      
+            
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        if (rs.next()) {
-            return true;
-        } else {
-            return false;
-        }
+        while (rs.next()) {
+               resultSearch[0]=1;
+               resultSearch[1]=rs.getInt("ID_ACHETEUR");
+            return resultSearch;
+        }       
+        resultSearch[0]=0;
+   
+         return resultSearch;
+        
     }
 
 }

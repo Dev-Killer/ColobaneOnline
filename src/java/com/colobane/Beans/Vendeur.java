@@ -1,12 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.colobane.Beans;
 
 import com.colobane.beans.Administrateur;
 import java.util.Collection;
+
 public class Vendeur {
    public int idVendeur;
    public java.lang.String nom;
@@ -16,6 +12,14 @@ public class Vendeur {
    public java.lang.String telephone;
    
    public java.util.Collection<Article> inserer;
+
+    public Vendeur(String nom, String prenom, String password, String adresse, String telephone) {
+        this.nom = nom;
+        this.prenom = prenom;
+        this.password = password;
+        this.adresse = adresse;
+        this.telephone = telephone;
+    }
    public Administrateur administrateur;
 
     public int getIdVendeur() {

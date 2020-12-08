@@ -5,11 +5,12 @@
  */
 package com.colobane.Bdd;
 
-import com.colobane.beans.Vendeur;
+import com.colobane.Beans.Vendeur;
 import com.colobane.utils.ConnexionDB;
 import com.colobane.utils.Sha256;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 
 /**
@@ -37,4 +38,30 @@ public void addVendeur(Vendeur vendeur){
         }
     
  }
+ public int[] findVendeur(String email,String password) throws SQLException {
+        ResultSet rs = null;
+        int resultSearch[] = new int[2];   
+        try {
+            PreparedStatement preparedStatement = con.prepareStatement("SELECT *FROM vendeur where  ADRESSE=? and PASSWORD=? ;");
+            preparedStatement.setString(1,email);
+            preparedStatement.setString(2,password);
+            preparedStatement.executeQuery();
+
+            rs = preparedStatement.executeQuery(); 
+      
+            
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        while (rs.next()) {
+               resultSearch[0]=1;
+               resultSearch[1]=rs.getInt("ID_ACHETEUR");
+            return resultSearch;
+        }       
+        resultSearch[0]=0;
+   
+         return resultSearch;
+        
+    }
+
 }
