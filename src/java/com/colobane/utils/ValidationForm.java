@@ -79,22 +79,19 @@ public class ValidationForm {
         String motDePasse = getValeurChamp(request, CHAMP_PASS);
         String confirmation = getValeurChamp(request, CHAMP_CONF);
         String adresse = getValeurChamp(request, CHAMP_ADRESSE);
-        Acheteur acheteur = new Acheteur();
-
+ 
         try {
             emailValidation(adresse);
         } catch (Exception e) {
             setErreur(CHAMP_ADRESSE, e.getMessage());
         }
-        acheteur.setAdresse(adresse);
-
+ 
         try {
             passwordValidation(motDePasse, confirmation);
         } catch (Exception e) {
             setErreur(CHAMP_PASS, e.getMessage());
                 }
-        acheteur.setPassword(motDePasse);
-
+ 
         try {
             validationNom(nom);
         } catch (Exception e) {
