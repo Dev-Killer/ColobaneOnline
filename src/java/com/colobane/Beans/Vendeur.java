@@ -11,8 +11,7 @@ public class Vendeur {
    public java.lang.String adresse;
    public java.lang.String telephone;
    
-   public java.util.Collection<Article> inserer;
-
+   
     public Vendeur(String nom, String prenom, String password, String adresse, String telephone) {
         this.nom = nom;
         this.prenom = prenom;
@@ -70,22 +69,5 @@ public class Vendeur {
         this.telephone = telephone;
     }
 
-    public Collection<Article> getInserer() {
-        return inserer;
-    }
-
-    public void setInserer(Collection<Article> inserer) {
-        this.inserer = inserer;
-    }
-
-    public Administrateur getAdministrateur() {
-        return administrateur;
-    }
-
-    public void setAdministrateur(Administrateur administrateur) {
-        this.administrateur = administrateur;
-    }
-   
-   
    
 }

@@ -1,12 +1,12 @@
 package com.colobane.beans;
+
 import java.util.*;
 
 public class Categorie {
    public int idCategorie;
    public String typeCategorie;
    
-   public java.util.Collection<Article> article;
-
+  
     public int getIdCategorie() {
         return idCategorie;
     }
@@ -23,13 +23,6 @@ public class Categorie {
         this.typeCategorie = typeCategorie;
     }
 
-    public Collection<Article> getArticle() {
-        return article;
-    }
-
-    public void setArticle(Collection<Article> article) {
-        this.article = article;
-    }
    
   
 }

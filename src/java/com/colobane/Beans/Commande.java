@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Commande {
    public int idCommande;
-   public java.util.Date dateCommande;
+   public Date dateCommande;
    public boolean livreAuClient;
 
     public int getIdCommande() {

@@ -7,19 +7,20 @@ public class Acheteur {
     public int idAcheteur;
     public java.lang.String nom;
 
-    
+    public java.lang.String adresse;
+    public java.lang.String telephone;
+   
     public java.lang.String prenom;
     public java.lang.String password;
 
-    public Acheteur(String nom, String prenom, String password, String telephone) {
+    public Acheteur(String nom, String prenom, String password, String telephone,String adresse) {
         this.nom = nom;
         this.prenom = prenom;
         this.password = password;
         this.telephone = telephone;
+        this.adresse=adresse;
     }
-    public java.lang.String adresse;
-    public java.lang.String telephone;
-
+ 
     public java.util.Collection<Article> panier;
     public java.util.Collection<Commande> commande;
 
