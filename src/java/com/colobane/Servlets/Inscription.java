@@ -59,8 +59,13 @@ public class Inscription extends HttpServlet {
                 AcheteurQueries inscription = new AcheteurQueries();
                 acheteur.setPassword(Sha256.sha256(password));
                 inscription.addAcheteur(acheteur);
+<<<<<<< HEAD
                 this.getServletContext().getRequestDispatcher("/WEB-INF/home.jsp").forward(request, response);
                 
+=======
+                this.getServletContext().getRequestDispatcher("/WEB-INF/ex_home.jsp").forward(request, response);
+
+>>>>>>> f935e0e277131b465b428349fc221c893ddfe8b3
             }
             request.setAttribute("form", form);
             
@@ -75,8 +80,13 @@ public class Inscription extends HttpServlet {
                 vendeur.setPassword(Sha256.sha256(password));
                 inscription.addVendeur(vendeur);
                 
+<<<<<<< HEAD
                 this.getServletContext().getRequestDispatcher("/WEB-INF/home.jsp").forward(request, response);
                 
+=======
+                this.getServletContext().getRequestDispatcher("/WEB-INF/ex_home.jsp").forward(request, response);
+
+>>>>>>> f935e0e277131b465b428349fc221c893ddfe8b3
             }
             request.setAttribute("form", form);
             
