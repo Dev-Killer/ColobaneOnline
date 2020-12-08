@@ -67,7 +67,7 @@ public class Inscription extends HttpServlet {
             if (bol) {
                   AcheteurQueries inscription = new AcheteurQueries();
                 inscription.addAcheteur(acheteur);
-                this.getServletContext().getRequestDispatcher("/WEB-INF/home.jsp").forward(request, response);
+                this.getServletContext().getRequestDispatcher("/WEB-INF/ex_home.jsp").forward(request, response);
 
             }
 
@@ -87,7 +87,7 @@ public class Inscription extends HttpServlet {
                 VendeurQueries inscription = new VendeurQueries();
                 inscription.addVendeur(vendeur);
                 
-                this.getServletContext().getRequestDispatcher("/WEB-INF/home.jsp").forward(request, response);
+                this.getServletContext().getRequestDispatcher("/WEB-INF/ex_home.jsp").forward(request, response);
 
             }
 
