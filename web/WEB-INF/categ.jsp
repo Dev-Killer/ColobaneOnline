@@ -18,8 +18,8 @@
   <div class="container">
     <div class="breadcrumb-inner">
       <ul class="list-inline list-unstyled">
-        <li><a href="/Colobane_Online/">Accueil</a></li>
-        <li class='active'>Catégories</li>
+        <li><a href="/ColobaneOnline/">Accueil</a></li>
+        <li class='active'>CatÃ©gories</li>
       </ul>
     </div>
     <!-- /.breadcrumb-inner --> 

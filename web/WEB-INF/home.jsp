@@ -85,7 +85,7 @@
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
-                          <a href="/Colobane_Online/detail">
+                          <a href="/ColobaneOnline/detail">
                              <img src="${pageContext.request.contextPath}/assets/images/products/p1.jpg" alt=""> 
                               <img src="${pageContext.request.contextPath}/assets/images/products/p1_hover.jpg" alt="" class="hover-image">
                           </a> 
@@ -97,7 +97,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="/Colobane_Online/detail">Floral Print Buttoned</a></h3>
+                          <h3 class="name"><a href="/ColobaneOnline/detail">Floral Print Buttoned</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
@@ -112,8 +112,8 @@
                                 <button data-toggle="tooltip" class="btn btn-primary icon" type="button" title="Add Cart"> <i class="fa fa-shopping-cart"></i> </button>
                                 <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                               </li>
-                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart" href="/Colobane_Online/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                              <li class="lnk"> <a data-toggle="tooltip" class="add-to-cart" href="/Colobane_Online/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart" href="/ColobaneOnline/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk"> <a data-toggle="tooltip" class="add-to-cart" href="/ColobaneOnline/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -132,7 +132,7 @@
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
-                          <a href="/Colobane_Online/detail">
+                          <a href="/ColobaneOnline/detail">
                              <img src="${pageContext.request.contextPath}/assets/images/products/p4.jpg" alt=""> 
                               <img src="${pageContext.request.contextPath}/assets/images/products/p4_hover.jpg" alt="" class="hover-image">
                           </a>
@@ -144,7 +144,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="/Colobane_Online/detail">Floral Print Buttoned</a></h3>
+                          <h3 class="name"><a href="/ColobaneOnline/detail">Floral Print Buttoned</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
@@ -159,8 +159,8 @@
                                 <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                                 <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                               </li>
-                              <li class="lnk wishlist"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                              <li class="lnk"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                              <li class="lnk wishlist"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -179,7 +179,7 @@
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
-                           <a href="/Colobane_Online/detail">
+                           <a href="/ColobaneOnline/detail">
                              <img src="${pageContext.request.contextPath}/assets/images/products/p3.jpg" alt=""> 
                               <img src="${pageContext.request.contextPath}/assets/images/products/p3_hover.jpg" alt="" class="hover-image">
                           </a>
@@ -191,7 +191,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="/Colobane_Online/detail">Floral Print Buttoned</a></h3>
+                          <h3 class="name"><a href="/ColobaneOnline/detail">Floral Print Buttoned</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
@@ -206,8 +206,8 @@
                                 <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                                 <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                               </li>
-                              <li class="lnk wishlist"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                              <li class="lnk"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                              <li class="lnk wishlist"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -226,7 +226,7 @@
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
-                           <a href="/Colobane_Online/detail">
+                           <a href="/ColobaneOnline/detail">
                              <img src="${pageContext.request.contextPath}/assets/images/products/p2.jpg" alt=""> 
                               <img src="${pageContext.request.contextPath}/assets/images/products/p2_hover.jpg" alt="" class="hover-image">
                           </a> 
@@ -238,7 +238,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="/Colobane_Online/detail">Floral Print Buttoned</a></h3>
+                          <h3 class="name"><a href="/ColobaneOnline/detail">Floral Print Buttoned</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
@@ -253,8 +253,8 @@
                                 <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                                 <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                               </li>
-                              <li class="lnk wishlist"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                              <li class="lnk"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                              <li class="lnk wishlist"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -273,7 +273,7 @@
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
-                           <a href="/Colobane_Online/detail">
+                           <a href="/ColobaneOnline/detail">
                              <img src="${pageContext.request.contextPath}/assets/images/products/p6.jpg" alt=""> 
                               <img src="${pageContext.request.contextPath}/assets/images/products/p6_hover.jpg" alt="" class="hover-image">
                           </a> 
@@ -285,7 +285,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="/Colobane_Online/detail">Floral Print Buttoned</a></h3>
+                          <h3 class="name"><a href="/ColobaneOnline/detail">Floral Print Buttoned</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
@@ -300,8 +300,8 @@
                                 <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                                 <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                               </li>
-                              <li class="lnk wishlist"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                              <li class="lnk"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                              <li class="lnk wishlist"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -320,7 +320,7 @@
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
-                           <a href="/Colobane_Online/detail">
+                           <a href="/ColobaneOnline/detail">
                              <img src="${pageContext.request.contextPath}/assets/images/products/p5.jpg" alt=""> 
                               <img src="${pageContext.request.contextPath}/assets/images/products/p5_hover.jpg" alt="" class="hover-image">
                           </a>
@@ -332,7 +332,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="/Colobane_Online/detail">Floral Print Buttoned</a></h3>
+                          <h3 class="name"><a href="/ColobaneOnline/detail">Floral Print Buttoned</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
@@ -347,8 +347,8 @@
                                 <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                                 <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                               </li>
-                              <li class="lnk wishlist"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                              <li class="lnk"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                              <li class="lnk wishlist"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -376,7 +376,7 @@
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
-                          <a href="/Colobane_Online/detail">
+                          <a href="/ColobaneOnline/detail">
                              <img src="${pageContext.request.contextPath}/assets/images/products/p7.jpg" alt=""> 
                               <img src="${pageContext.request.contextPath}/assets/images/products/p7_hover.jpg" alt="" class="hover-image">
                           </a>
@@ -389,7 +389,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="/Colobane_Online/detail">Floral Print Buttoned</a></h3>
+                          <h3 class="name"><a href="/ColobaneOnline/detail">Floral Print Buttoned</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
@@ -404,8 +404,8 @@
                                 <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                                 <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                               </li>
-                              <li class="lnk wishlist"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                              <li class="lnk"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                              <li class="lnk wishlist"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -424,7 +424,7 @@
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
-                          <a href="/Colobane_Online/detail">
+                          <a href="/ColobaneOnline/detail">
                              <img src="${pageContext.request.contextPath}/assets/images/products/p8.jpg" alt=""> 
                               <img src="${pageContext.request.contextPath}/assets/images/products/p8_hover.jpg" alt="" class="hover-image">
                           </a>
@@ -437,7 +437,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="/Colobane_Online/detail">Floral Print Buttoned</a></h3>
+                          <h3 class="name"><a href="/ColobaneOnline/detail">Floral Print Buttoned</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
@@ -452,8 +452,8 @@
                                 <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                                 <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                               </li>
-                              <li class="lnk wishlist"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                              <li class="lnk"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                              <li class="lnk wishlist"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -472,7 +472,7 @@
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
-                          <a href="/Colobane_Online/detail">
+                          <a href="/ColobaneOnline/detail">
                              <img src="${pageContext.request.contextPath}/assets/images/products/p9.jpg" alt=""> 
                               <img src="${pageContext.request.contextPath}/assets/images/products/p9_hover.jpg" alt="" class="hover-image">
                           </a>
@@ -485,7 +485,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="/Colobane_Online/detail">Floral Print Buttoned</a></h3>
+                          <h3 class="name"><a href="/ColobaneOnline/detail">Floral Print Buttoned</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
@@ -500,8 +500,8 @@
                                 <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                                 <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                               </li>
-                              <li class="lnk wishlist"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                              <li class="lnk"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                              <li class="lnk wishlist"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -520,7 +520,7 @@
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
-                          <a href="/Colobane_Online/detail">
+                          <a href="/ColobaneOnline/detail">
                              <img src="${pageContext.request.contextPath}/assets/images/products/p10.jpg" alt=""> 
                               <img src="${pageContext.request.contextPath}/assets/images/products/p10_hover.jpg" alt="" class="hover-image">
                           </a>
@@ -533,7 +533,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="/Colobane_Online/detail">Floral Print Buttoned</a></h3>
+                          <h3 class="name"><a href="/ColobaneOnline/detail">Floral Print Buttoned</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
@@ -548,8 +548,8 @@
                                 <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                                 <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                               </li>
-                              <li class="lnk wishlist"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                              <li class="lnk"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                              <li class="lnk wishlist"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -568,7 +568,7 @@
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
-                          <a href="/Colobane_Online/detail">
+                          <a href="/ColobaneOnline/detail">
                              <img src="${pageContext.request.contextPath}/assets/images/products/p11.jpg" alt=""> 
                               <img src="${pageContext.request.contextPath}/assets/images/products/p11_hover.jpg" alt="" class="hover-image">
                           </a>
@@ -581,7 +581,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="/Colobane_Online/detail">Floral Print Buttoned</a></h3>
+                          <h3 class="name"><a href="/ColobaneOnline/detail">Floral Print Buttoned</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
@@ -596,8 +596,8 @@
                                 <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                                 <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                               </li>
-                              <li class="lnk wishlist"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                              <li class="lnk"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                              <li class="lnk wishlist"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -616,7 +616,7 @@
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
-                          <a href="/Colobane_Online/detail">
+                          <a href="/ColobaneOnline/detail">
                              <img src="${pageContext.request.contextPath}/assets/images/products/p12.jpg" alt=""> 
                               <img src="${pageContext.request.contextPath}/assets/images/products/p12_hover.jpg" alt="" class="hover-image">
                           </a>
@@ -629,7 +629,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="/Colobane_Online/detail">Floral Print Buttoned</a></h3>
+                          <h3 class="name"><a href="/ColobaneOnline/detail">Floral Print Buttoned</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
@@ -644,8 +644,8 @@
                                 <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                                 <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                               </li>
-                              <li class="lnk wishlist"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                              <li class="lnk"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                              <li class="lnk wishlist"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -673,7 +673,7 @@
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
-                          <a href="/Colobane_Online/detail">
+                          <a href="/ColobaneOnline/detail">
                              <img src="${pageContext.request.contextPath}/assets/images/products/p15.jpg" alt=""> 
                               <img src="${pageContext.request.contextPath}/assets/images/products/p15_hover.jpg" alt="" class="hover-image">
                           </a>
@@ -686,7 +686,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="/Colobane_Online/detail">Floral Print Buttoned</a></h3>
+                          <h3 class="name"><a href="/ColobaneOnline/detail">Floral Print Buttoned</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
@@ -701,8 +701,8 @@
                                 <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                                 <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                               </li>
-                              <li class="lnk wishlist"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                              <li class="lnk"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                              <li class="lnk wishlist"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -721,7 +721,7 @@
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
-                          <a href="/Colobane_Online/detail">
+                          <a href="/ColobaneOnline/detail">
                              <img src="${pageContext.request.contextPath}/assets/images/products/p2.jpg" alt=""> 
                               <img src="${pageContext.request.contextPath}/assets/images/products/p2_hover.jpg" alt="" class="hover-image">
                           </a>
@@ -734,7 +734,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="/Colobane_Online/detail">Floral Print Buttoned</a></h3>
+                          <h3 class="name"><a href="/ColobaneOnline/detail">Floral Print Buttoned</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
@@ -749,8 +749,8 @@
                                 <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                                 <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                               </li>
-                              <li class="lnk wishlist"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                              <li class="lnk"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                              <li class="lnk wishlist"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -769,7 +769,7 @@
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
-                          <a href="/Colobane_Online/detail">
+                          <a href="/ColobaneOnline/detail">
                              <img src="${pageContext.request.contextPath}/assets/images/products/p8.jpg" alt=""> 
                               <img src="${pageContext.request.contextPath}/assets/images/products/p8_hover.jpg" alt="" class="hover-image">
                           </a>
@@ -782,7 +782,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="/Colobane_Online/detail">Floral Print Buttoned</a></h3>
+                          <h3 class="name"><a href="/ColobaneOnline/detail">Floral Print Buttoned</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
@@ -797,8 +797,8 @@
                                 <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                                 <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                               </li>
-                              <li class="lnk wishlist"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                              <li class="lnk"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                              <li class="lnk wishlist"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -816,7 +816,7 @@
                     <div class="products">
                       <div class="product">
                         <div class="image"> 
-                          <a href="/Colobane_Online/detail">
+                          <a href="/ColobaneOnline/detail">
                              <img src="${pageContext.request.contextPath}/assets/images/products/p14.jpg" alt=""> 
                               <img src="${pageContext.request.contextPath}/assets/images/products/p14_hover.jpg" alt="" class="hover-image">
                           </a>
@@ -825,7 +825,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="/Colobane_Online/detail">Floral Print Buttoned</a></h3>
+                          <h3 class="name"><a href="/ColobaneOnline/detail">Floral Print Buttoned</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
@@ -840,8 +840,8 @@
                                 <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                                 <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                               </li>
-                              <li class="lnk wishlist"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                              <li class="lnk"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                              <li class="lnk wishlist"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -860,7 +860,7 @@
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
-                          <a href="/Colobane_Online/detail">
+                          <a href="/ColobaneOnline/detail">
                              <img src="${pageContext.request.contextPath}/assets/images/products/p12.jpg" alt=""> 
                               <img src="${pageContext.request.contextPath}/assets/images/products/p12_hover.jpg" alt="" class="hover-image">
                           </a>
@@ -873,7 +873,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="/Colobane_Online/detail">Floral Print Buttoned</a></h3>
+                          <h3 class="name"><a href="/ColobaneOnline/detail">Floral Print Buttoned</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
@@ -888,8 +888,8 @@
                                 <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                                 <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                               </li>
-                              <li class="lnk wishlist"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                              <li class="lnk"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                              <li class="lnk wishlist"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -908,7 +908,7 @@
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
-                          <a href="/Colobane_Online/detail">
+                          <a href="/ColobaneOnline/detail">
                              <img src="${pageContext.request.contextPath}/assets/images/products/p9.jpg" alt=""> 
                               <img src="${pageContext.request.contextPath}/assets/images/products/p9_hover.jpg" alt="" class="hover-image">
                           </a>
@@ -921,7 +921,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="/Colobane_Online/detail">Apple Iphone 5s 32GB</a></h3>
+                          <h3 class="name"><a href="/ColobaneOnline/detail">Apple Iphone 5s 32GB</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
@@ -936,8 +936,8 @@
                                 <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                                 <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                               </li>
-                              <li class="lnk wishlist"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                              <li class="lnk"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                              <li class="lnk wishlist"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -965,7 +965,7 @@
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
-                          <a href="/Colobane_Online/detail">
+                          <a href="/ColobaneOnline/detail">
                              <img src="${pageContext.request.contextPath}/assets/images/products/p13.jpg" alt=""> 
                               <img src="${pageContext.request.contextPath}/assets/images/products/p13_hover.jpg" alt="" class="hover-image">
                           </a>
@@ -978,7 +978,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="/Colobane_Online/detail">Floral Print Buttoned</a></h3>
+                          <h3 class="name"><a href="/ColobaneOnline/detail">Floral Print Buttoned</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
@@ -993,8 +993,8 @@
                                 <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                                 <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                               </li>
-                              <li class="lnk wishlist"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                              <li class="lnk"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                              <li class="lnk wishlist"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -1013,7 +1013,7 @@
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
-                          <a href="/Colobane_Online/detail">
+                          <a href="/ColobaneOnline/detail">
                              <img src="${pageContext.request.contextPath}/assets/images/products/p11.jpg" alt=""> 
                               <img src="${pageContext.request.contextPath}/assets/images/products/p11_hover.jpg" alt="" class="hover-image">
                           </a>
@@ -1026,7 +1026,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="/Colobane_Online/detail">Floral Print Buttoned</a></h3>
+                          <h3 class="name"><a href="/ColobaneOnline/detail">Floral Print Buttoned</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
@@ -1041,8 +1041,8 @@
                                 <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                                 <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                               </li>
-                              <li class="lnk wishlist"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                              <li class="lnk"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                              <li class="lnk wishlist"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -1061,7 +1061,7 @@
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
-                          <a href="/Colobane_Online/detail">
+                          <a href="/ColobaneOnline/detail">
                              <img src="${pageContext.request.contextPath}/assets/images/products/p4.jpg" alt=""> 
                               <img src="${pageContext.request.contextPath}/assets/images/products/p4_hover.jpg" alt="" class="hover-image">
                           </a>
@@ -1074,7 +1074,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="/Colobane_Online/detail">Floral Print Buttoned</a></h3>
+                          <h3 class="name"><a href="/ColobaneOnline/detail">Floral Print Buttoned</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
@@ -1089,8 +1089,8 @@
                                 <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                                 <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                               </li>
-                              <li class="lnk wishlist"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                              <li class="lnk"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                              <li class="lnk wishlist"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -1109,7 +1109,7 @@
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
-                          <a href="/Colobane_Online/detail">
+                          <a href="/ColobaneOnline/detail">
                              <img src="${pageContext.request.contextPath}/assets/images/products/p1.jpg" alt=""> 
                               <img src="${pageContext.request.contextPath}/assets/images/products/p1_hover.jpg" alt="" class="hover-image">
                           </a>
@@ -1122,7 +1122,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="/Colobane_Online/detail">Floral Print Buttoned</a></h3>
+                          <h3 class="name"><a href="/ColobaneOnline/detail">Floral Print Buttoned</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
@@ -1137,8 +1137,8 @@
                                 <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                                 <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                               </li>
-                              <li class="lnk wishlist"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                              <li class="lnk"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                              <li class="lnk wishlist"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -1157,7 +1157,7 @@
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
-                          <a href="/Colobane_Online/detail">
+                          <a href="/ColobaneOnline/detail">
                              <img src="${pageContext.request.contextPath}/assets/images/products/p10.jpg" alt=""> 
                               <img src="${pageContext.request.contextPath}/assets/images/products/p10_hover.jpg" alt="" class="hover-image">
                           </a>
@@ -1170,7 +1170,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="/Colobane_Online/detail">Floral Print Buttoned</a></h3>
+                          <h3 class="name"><a href="/ColobaneOnline/detail">Floral Print Buttoned</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
@@ -1185,8 +1185,8 @@
                                 <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                                 <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                               </li>
-                              <li class="lnk wishlist"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                              <li class="lnk"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                              <li class="lnk wishlist"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -1205,7 +1205,7 @@
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
-                          <a href="/Colobane_Online/detail">
+                          <a href="/ColobaneOnline/detail">
                              <img src="${pageContext.request.contextPath}/assets/images/products/p6.jpg" alt=""> 
                               <img src="${pageContext.request.contextPath}/assets/images/products/p6_hover.jpg" alt="" class="hover-image">
                           </a>
@@ -1218,7 +1218,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="/Colobane_Online/detail">Samsung Galaxy S4</a></h3>
+                          <h3 class="name"><a href="/ColobaneOnline/detail">Samsung Galaxy S4</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
@@ -1233,8 +1233,8 @@
                                 <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                                 <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                               </li>
-                              <li class="lnk wishlist"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                              <li class="lnk"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                              <li class="lnk wishlist"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -1300,7 +1300,7 @@
                 <div class="product">
                   <div class="product-image">
                     <div class="image">
-                      <a href="/Colobane_Online/detail">
+                      <a href="/ColobaneOnline/detail">
                         <img src="${pageContext.request.contextPath}/assets/images/products/p10.jpg" alt="">
                         <img src="${pageContext.request.contextPath}/assets/images/products/p10_hover.jpg" alt="" class="hover-image">
                       </a>
@@ -1312,7 +1312,7 @@
                   <!-- /.product-image -->
 
                   <div class="product-info text-left">
-                    <h3 class="name"><a href="/Colobane_Online/detail">Floral Print Buttoned</a></h3>
+                    <h3 class="name"><a href="/ColobaneOnline/detail">Floral Print Buttoned</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
                     <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
@@ -1327,8 +1327,8 @@
                           <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                           <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                         </li>
-                        <li class="lnk wishlist"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                        <li class="lnk"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                        <li class="lnk wishlist"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                        <li class="lnk"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                       </ul>
                     </div>
                     <!-- /.action -->
@@ -1347,7 +1347,7 @@
                 <div class="product">
                   <div class="product-image">
                     <div class="image">
-                      <a href="/Colobane_Online/detail">
+                      <a href="/ColobaneOnline/detail">
                         <img src="${pageContext.request.contextPath}/assets/images/products/p2.jpg" alt="">
                         <img src="${pageContext.request.contextPath}/assets/images/products/p2_hover.jpg" alt="" class="hover-image">
                       </a>
@@ -1360,7 +1360,7 @@
                   <!-- /.product-image -->
 
                   <div class="product-info text-left">
-                    <h3 class="name"><a href="/Colobane_Online/detail">Floral Print Buttoned</a></h3>
+                    <h3 class="name"><a href="/ColobaneOnline/detail">Floral Print Buttoned</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
                     <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
@@ -1375,8 +1375,8 @@
                           <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                           <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                         </li>
-                        <li class="lnk wishlist"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                        <li class="lnk"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                        <li class="lnk wishlist"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                        <li class="lnk"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                       </ul>
                     </div>
                     <!-- /.action -->
@@ -1395,7 +1395,7 @@
                 <div class="product">
                   <div class="product-image">
                     <div class="image">
-                      <a href="/Colobane_Online/detail">
+                      <a href="/ColobaneOnline/detail">
                         <img src="${pageContext.request.contextPath}/assets/images/products/p3.jpg" alt="">
                         <img src="${pageContext.request.contextPath}/assets/images/products/p3_hover.jpg" alt="" class="hover-image">
                       </a>
@@ -1408,7 +1408,7 @@
                   <!-- /.product-image -->
 
                   <div class="product-info text-left">
-                    <h3 class="name"><a href="/Colobane_Online/detail">Floral Print Buttoned</a></h3>
+                    <h3 class="name"><a href="/ColobaneOnline/detail">Floral Print Buttoned</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
                     <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
@@ -1423,8 +1423,8 @@
                           <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                           <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                         </li>
-                        <li class="lnk wishlist"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                        <li class="lnk"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                        <li class="lnk wishlist"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                        <li class="lnk"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                       </ul>
                     </div>
                     <!-- /.action -->
@@ -1443,7 +1443,7 @@
                 <div class="product">
                   <div class="product-image">
                     <div class="image">
-                      <a href="/Colobane_Online/detail">
+                      <a href="/ColobaneOnline/detail">
                         <img src="${pageContext.request.contextPath}/assets/images/products/p1.jpg" alt="">
                         <img src="${pageContext.request.contextPath}/assets/images/products/p1_hover.jpg" alt="" class="hover-image">
                       </a>
@@ -1456,7 +1456,7 @@
                   <!-- /.product-image -->
 
                   <div class="product-info text-left">
-                    <h3 class="name"><a href="/Colobane_Online/detail">Floral Print Buttoned</a></h3>
+                    <h3 class="name"><a href="/ColobaneOnline/detail">Floral Print Buttoned</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
                     <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
@@ -1471,8 +1471,8 @@
                           <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                           <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                         </li>
-                        <li class="lnk wishlist"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                        <li class="lnk"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                        <li class="lnk wishlist"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                        <li class="lnk"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                       </ul>
                     </div>
                     <!-- /.action -->
@@ -1491,7 +1491,7 @@
                 <div class="product">
                   <div class="product-image">
                     <div class="image">
-                      <a href="/Colobane_Online/detail">
+                      <a href="/ColobaneOnline/detail">
                         <img src="${pageContext.request.contextPath}/assets/images/products/p7.jpg" alt="">
                         <img src="${pageContext.request.contextPath}/assets/images/products/p7_hover.jpg" alt="" class="hover-image">
                       </a>
@@ -1504,7 +1504,7 @@
                   <!-- /.product-image -->
 
                   <div class="product-info text-left">
-                    <h3 class="name"><a href="/Colobane_Online/detail">Floral Print Buttoned</a></h3>
+                    <h3 class="name"><a href="/ColobaneOnline/detail">Floral Print Buttoned</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
                     <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
@@ -1519,8 +1519,8 @@
                           <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                           <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                         </li>
-                        <li class="lnk wishlist"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                        <li class="lnk"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                        <li class="lnk wishlist"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                        <li class="lnk"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                       </ul>
                     </div>
                     <!-- /.action -->
@@ -1539,7 +1539,7 @@
                 <div class="product">
                   <div class="product-image">
                     <div class="image">
-                      <a href="/Colobane_Online/detail">
+                      <a href="/ColobaneOnline/detail">
                         <img src="${pageContext.request.contextPath}/assets/images/products/p9.jpg" alt="">
                         <img src="${pageContext.request.contextPath}/assets/images/products/p9_hover.jpg" alt="" class="hover-image">
                       </a>
@@ -1552,7 +1552,7 @@
                   <!-- /.product-image -->
 
                   <div class="product-info text-left">
-                    <h3 class="name"><a href="/Colobane_Online/detail">Floral Print Buttoned</a></h3>
+                    <h3 class="name"><a href="/ColobaneOnline/detail">Floral Print Buttoned</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
                     <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
@@ -1567,8 +1567,8 @@
                           <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                           <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                         </li>
-                        <li class="lnk wishlist"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                        <li class="lnk"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                        <li class="lnk wishlist"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                        <li class="lnk"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                       </ul>
                     </div>
                     <!-- /.action -->
@@ -1641,7 +1641,7 @@
                 <div class="product">
                   <div class="product-image">
                     <div class="image">
-                      <a href="/Colobane_Online/detail">
+                      <a href="/ColobaneOnline/detail">
                         <img src="${pageContext.request.contextPath}/assets/images/products/p10.jpg" alt="">
                         <img src="${pageContext.request.contextPath}/assets/images/products/p10_hover.jpg" alt="" class="hover-image">
                       </a>
@@ -1653,7 +1653,7 @@
                   <!-- /.product-image -->
 
                   <div class="product-info text-left">
-                    <h3 class="name"><a href="/Colobane_Online/detail">Floral Print Buttoned</a></h3>
+                    <h3 class="name"><a href="/ColobaneOnline/detail">Floral Print Buttoned</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
                     <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
@@ -1668,8 +1668,8 @@
                           <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                           <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                         </li>
-                        <li class="lnk wishlist"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                        <li class="lnk"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                        <li class="lnk wishlist"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                        <li class="lnk"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                       </ul>
                     </div>
                     <!-- /.action -->
@@ -1688,7 +1688,7 @@
                 <div class="product">
                   <div class="product-image">
                     <div class="image">
-                      <a href="/Colobane_Online/detail">
+                      <a href="/ColobaneOnline/detail">
                         <img src="${pageContext.request.contextPath}/assets/images/products/p2.jpg" alt="">
                         <img src="${pageContext.request.contextPath}/assets/images/products/p2_hover.jpg" alt="" class="hover-image">
                       </a>
@@ -1701,7 +1701,7 @@
                   <!-- /.product-image -->
 
                   <div class="product-info text-left">
-                    <h3 class="name"><a href="/Colobane_Online/detail">Floral Print Buttoned</a></h3>
+                    <h3 class="name"><a href="/ColobaneOnline/detail">Floral Print Buttoned</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
                     <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
@@ -1716,8 +1716,8 @@
                           <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                           <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                         </li>
-                        <li class="lnk wishlist"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                        <li class="lnk"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                        <li class="lnk wishlist"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                        <li class="lnk"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                       </ul>
                     </div>
                     <!-- /.action -->
@@ -1736,7 +1736,7 @@
                 <div class="product">
                   <div class="product-image">
                     <div class="image">
-                      <a href="/Colobane_Online/detail">
+                      <a href="/ColobaneOnline/detail">
                         <img src="${pageContext.request.contextPath}/assets/images/products/p3.jpg" alt="">
                         <img src="${pageContext.request.contextPath}/assets/images/products/p3_hover.jpg" alt="" class="hover-image">
                       </a>
@@ -1749,7 +1749,7 @@
                   <!-- /.product-image -->
 
                   <div class="product-info text-left">
-                    <h3 class="name"><a href="/Colobane_Online/detail">Floral Print Buttoned</a></h3>
+                    <h3 class="name"><a href="/ColobaneOnline/detail">Floral Print Buttoned</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
                     <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
@@ -1764,8 +1764,8 @@
                           <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                           <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                         </li>
-                        <li class="lnk wishlist"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                        <li class="lnk"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                        <li class="lnk wishlist"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                        <li class="lnk"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                       </ul>
                     </div>
                     <!-- /.action -->
@@ -1784,7 +1784,7 @@
                 <div class="product">
                   <div class="product-image">
                     <div class="image">
-                      <a href="/Colobane_Online/detail">
+                      <a href="/ColobaneOnline/detail">
                         <img src="${pageContext.request.contextPath}/assets/images/products/p1.jpg" alt="">
                         <img src="${pageContext.request.contextPath}/assets/images/products/p1_hover.jpg" alt="" class="hover-image">
                       </a>
@@ -1797,7 +1797,7 @@
                   <!-- /.product-image -->
 
                   <div class="product-info text-left">
-                    <h3 class="name"><a href="/Colobane_Online/detail">Floral Print Buttoned</a></h3>
+                    <h3 class="name"><a href="/ColobaneOnline/detail">Floral Print Buttoned</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
                     <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
@@ -1812,8 +1812,8 @@
                           <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                           <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                         </li>
-                        <li class="lnk wishlist"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                        <li class="lnk"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                        <li class="lnk wishlist"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                        <li class="lnk"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                       </ul>
                     </div>
                     <!-- /.action -->
@@ -1832,7 +1832,7 @@
                 <div class="product">
                   <div class="product-image">
                     <div class="image">
-                      <a href="/Colobane_Online/detail">
+                      <a href="/ColobaneOnline/detail">
                         <img src="${pageContext.request.contextPath}/assets/images/products/p7.jpg" alt="">
                         <img src="${pageContext.request.contextPath}/assets/images/products/p7_hover.jpg" alt="" class="hover-image">
                       </a>
@@ -1845,7 +1845,7 @@
                   <!-- /.product-image -->
 
                   <div class="product-info text-left">
-                    <h3 class="name"><a href="/Colobane_Online/detail">Floral Print Buttoned</a></h3>
+                    <h3 class="name"><a href="/ColobaneOnline/detail">Floral Print Buttoned</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
                     <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
@@ -1860,8 +1860,8 @@
                           <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                           <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                         </li>
-                        <li class="lnk wishlist"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                        <li class="lnk"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                        <li class="lnk wishlist"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                        <li class="lnk"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                       </ul>
                     </div>
                     <!-- /.action -->
@@ -1880,7 +1880,7 @@
                 <div class="product">
                   <div class="product-image">
                     <div class="image">
-                      <a href="/Colobane_Online/detail">
+                      <a href="/ColobaneOnline/detail">
                         <img src="${pageContext.request.contextPath}/assets/images/products/p9.jpg" alt="">
                         <img src="${pageContext.request.contextPath}/assets/images/products/p9_hover.jpg" alt="" class="hover-image">
                       </a>
@@ -1893,7 +1893,7 @@
                   <!-- /.product-image -->
 
                   <div class="product-info text-left">
-                    <h3 class="name"><a href="/Colobane_Online/detail">Floral Print Buttoned</a></h3>
+                    <h3 class="name"><a href="/ColobaneOnline/detail">Floral Print Buttoned</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
                     <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
@@ -1908,8 +1908,8 @@
                           <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                           <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                         </li>
-                        <li class="lnk wishlist"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                        <li class="lnk"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                        <li class="lnk wishlist"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                        <li class="lnk"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                       </ul>
                     </div>
                     <!-- /.action -->
@@ -1929,7 +1929,7 @@
                 <div class="product">
                   <div class="product-image">
                     <div class="image">
-                      <a href="/Colobane_Online/detail">
+                      <a href="/ColobaneOnline/detail">
                         <img src="${pageContext.request.contextPath}/assets/images/products/p10.jpg" alt="">
                         <img src="${pageContext.request.contextPath}/assets/images/products/p10_hover.jpg" alt="" class="hover-image">
                       </a>
@@ -1941,7 +1941,7 @@
                   <!-- /.product-image -->
 
                   <div class="product-info text-left">
-                    <h3 class="name"><a href="/Colobane_Online/detail">Floral Print Buttoned</a></h3>
+                    <h3 class="name"><a href="/ColobaneOnline/detail">Floral Print Buttoned</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
                     <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
@@ -1956,8 +1956,8 @@
                           <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                           <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                         </li>
-                        <li class="lnk wishlist"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                        <li class="lnk"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                        <li class="lnk wishlist"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                        <li class="lnk"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                       </ul>
                     </div>
                     <!-- /.action -->
@@ -1976,7 +1976,7 @@
                 <div class="product">
                   <div class="product-image">
                     <div class="image">
-                      <a href="/Colobane_Online/detail">
+                      <a href="/ColobaneOnline/detail">
                         <img src="${pageContext.request.contextPath}/assets/images/products/p2.jpg" alt="">
                         <img src="${pageContext.request.contextPath}/assets/images/products/p2_hover.jpg" alt="" class="hover-image">
                       </a>
@@ -1989,7 +1989,7 @@
                   <!-- /.product-image -->
 
                   <div class="product-info text-left">
-                    <h3 class="name"><a href="/Colobane_Online/detail">Floral Print Buttoned</a></h3>
+                    <h3 class="name"><a href="/ColobaneOnline/detail">Floral Print Buttoned</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
                     <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
@@ -2004,8 +2004,8 @@
                           <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                           <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                         </li>
-                        <li class="lnk wishlist"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                        <li class="lnk"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                        <li class="lnk wishlist"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                        <li class="lnk"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                       </ul>
                     </div>
                     <!-- /.action -->
@@ -2024,7 +2024,7 @@
                 <div class="product">
                   <div class="product-image">
                     <div class="image">
-                      <a href="/Colobane_Online/detail">
+                      <a href="/ColobaneOnline/detail">
                         <img src="${pageContext.request.contextPath}/assets/images/products/p3.jpg" alt="">
                         <img src="${pageContext.request.contextPath}/assets/images/products/p3_hover.jpg" alt="" class="hover-image">
                       </a>
@@ -2037,7 +2037,7 @@
                   <!-- /.product-image -->
 
                   <div class="product-info text-left">
-                    <h3 class="name"><a href="/Colobane_Online/detail">Floral Print Buttoned</a></h3>
+                    <h3 class="name"><a href="/ColobaneOnline/detail">Floral Print Buttoned</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
                     <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
@@ -2052,8 +2052,8 @@
                           <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                           <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                         </li>
-                        <li class="lnk wishlist"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                        <li class="lnk"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                        <li class="lnk wishlist"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                        <li class="lnk"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                       </ul>
                     </div>
                     <!-- /.action -->
@@ -2072,7 +2072,7 @@
                 <div class="product">
                   <div class="product-image">
                     <div class="image">
-                      <a href="/Colobane_Online/detail">
+                      <a href="/ColobaneOnline/detail">
                         <img src="${pageContext.request.contextPath}/assets/images/products/p1.jpg" alt="">
                         <img src="${pageContext.request.contextPath}/assets/images/products/p1_hover.jpg" alt="" class="hover-image">
                       </a>
@@ -2085,7 +2085,7 @@
                   <!-- /.product-image -->
 
                   <div class="product-info text-left">
-                    <h3 class="name"><a href="/Colobane_Online/detail">Floral Print Buttoned</a></h3>
+                    <h3 class="name"><a href="/ColobaneOnline/detail">Floral Print Buttoned</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
                     <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
@@ -2100,8 +2100,8 @@
                           <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                           <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                         </li>
-                        <li class="lnk wishlist"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                        <li class="lnk"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                        <li class="lnk wishlist"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                        <li class="lnk"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                       </ul>
                     </div>
                     <!-- /.action -->
@@ -2120,7 +2120,7 @@
                 <div class="product">
                   <div class="product-image">
                     <div class="image">
-                      <a href="/Colobane_Online/detail">
+                      <a href="/ColobaneOnline/detail">
                         <img src="${pageContext.request.contextPath}/assets/images/products/p7.jpg" alt="">
                         <img src="${pageContext.request.contextPath}/assets/images/products/p7_hover.jpg" alt="" class="hover-image">
                       </a>
@@ -2133,7 +2133,7 @@
                   <!-- /.product-image -->
 
                   <div class="product-info text-left">
-                    <h3 class="name"><a href="/Colobane_Online/detail">Floral Print Buttoned</a></h3>
+                    <h3 class="name"><a href="/ColobaneOnline/detail">Floral Print Buttoned</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
                     <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
@@ -2148,8 +2148,8 @@
                           <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                           <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                         </li>
-                        <li class="lnk wishlist"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                        <li class="lnk"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                        <li class="lnk wishlist"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                        <li class="lnk"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                       </ul>
                     </div>
                     <!-- /.action -->
@@ -2168,7 +2168,7 @@
                 <div class="product">
                   <div class="product-image">
                     <div class="image">
-                      <a href="/Colobane_Online/detail">
+                      <a href="/ColobaneOnline/detail">
                         <img src="${pageContext.request.contextPath}/assets/images/products/p9.jpg" alt="">
                         <img src="${pageContext.request.contextPath}/assets/images/products/p9_hover.jpg" alt="" class="hover-image">
                       </a>
@@ -2181,7 +2181,7 @@
                   <!-- /.product-image -->
 
                   <div class="product-info text-left">
-                    <h3 class="name"><a href="/Colobane_Online/detail">Floral Print Buttoned</a></h3>
+                    <h3 class="name"><a href="/ColobaneOnline/detail">Floral Print Buttoned</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
                     <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
@@ -2196,8 +2196,8 @@
                           <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                           <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                         </li>
-                        <li class="lnk wishlist"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                        <li class="lnk"> <a class="add-to-cart" href="/Colobane_Online/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                        <li class="lnk wishlist"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                        <li class="lnk"> <a class="add-to-cart" href="/ColobaneOnline/detail" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                       </ul>
                     </div>
                     <!-- /.action -->

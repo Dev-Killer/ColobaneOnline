@@ -32,6 +32,10 @@
         <servlet-name>Order</servlet-name>
         <servlet-class>com.colobane.Servlets.Order</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Admin</servlet-name>
+        <servlet-class>com.colobane.Servlets.Admin</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Connexion</servlet-name>
         <url-pattern>/connexion</url-pattern>
@@ -71,6 +75,10 @@
     <servlet-mapping>
         <servlet-name>Order</servlet-name>
         <url-pattern>/order</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Admin</servlet-name>
+        <url-pattern>/intadmin</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

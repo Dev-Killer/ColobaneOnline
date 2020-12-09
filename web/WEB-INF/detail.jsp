@@ -19,7 +19,7 @@
   <div class="container">
     <div class="breadcrumb-inner">
       <ul class="list-inline list-unstyled">
-        <li><a href="/Colobane_Online/">Accueil</a></li>
+        <li><a href="/ColobaneOnline/">Accueil</a></li>
         <li><a href="#">nameCateg</a></li>
         <li class='active'>nameItem</li>
       </ul>

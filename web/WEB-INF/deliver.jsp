@@ -19,7 +19,7 @@
 	<div class="container">
 		<div class="breadcrumb-inner">
 			<ul class="list-inline list-unstyled">
-				<li><a href="/Colobane_Online/">Accueil</a></li>
+				<li><a href="/ColobaneOnline/">Accueil</a></li>
 				<li class='active'>Livraison</li>
 			</ul>
 		</div><!-- /.breadcrumb-inner -->
@@ -32,7 +32,7 @@
 			<div class="row">
 				<div class="col-md-12">
 	<h2 class="heading-title">Confirmation de Livraison</h2>
-	<span class="title-tag inner-top-ss">Page Réservée à la LIVRAISON. Veuillez saisir votre CODE COMMANDE dans la case correspondant ci-dessous. Ce dernier vous a été remis aprés avoir confirmé votre commande.</span>
+	<span class="title-tag inner-top-ss">Page Rï¿½servï¿½e ï¿½ la LIVRAISON. Veuillez saisir votre CODE COMMANDE dans la case correspondant ci-dessous. Ce dernier vous a ï¿½tï¿½ remis aprï¿½s avoir confirmï¿½ votre commande.</span>
 	<form class="register-form outer-top-xs" role="form">
 		<div class="form-group">
 		    <label class="info-title" for="exampleOrderId1">ID Livreur</label>

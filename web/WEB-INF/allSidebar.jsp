@@ -10,7 +10,7 @@
         <!-- ============================================== SPECIAL OFFER ============================================== -->
 
         <div class="sidebar-widget outer-bottom-small">
-          <h3 class="section-title">Offre spécial</h3>
+          <h3 class="section-title">Offre spÃ©cial</h3>
           <div class="sidebar-widget-body outer-top-xs">
             <div class="owl-carousel sidebar-carousel special-offer custom-carousel owl-theme outer-top-xs">
               <div class="item">

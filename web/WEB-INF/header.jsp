@@ -7,17 +7,17 @@
       <div class="header-top-inner">
         <div class="cnt-account">
           <ul class="list-unstyled">
-            <li class="myaccount"><a href="/Colobane_Online/login"><span>Mon Compte</span></a></li>
-            <li class="wishlist"><a href="/Colobane_Online/order"><span>Favories</span></a></li>
-            <li class="header_cart hidden-xs"><a href="/Colobane_Online/order"><span>Mon Panier</span></a></li>
+            <li class="myaccount"><a href="/ColobaneOnline/login"><span>Mon Compte</span></a></li>
+            <li class="wishlist"><a href="/ColobaneOnline/order"><span>Favories</span></a></li>
+            <li class="header_cart hidden-xs"><a href="/ColobaneOnline/order"><span>Mon Panier</span></a></li>
             <!-- li class="check"><a href="checkout.html"><span>Checkout</span></a></li -->
-            <li class="login"><a href="/Colobane_Online/login"><span>Connexion / Inscription</span></a></li>
+            <li class="login"><a href="/ColobaneOnline/login"><span>Connexion / Inscription</span></a></li>
           </ul>
         </div>
         <div class="cnt-block">
           <ul class="list-inline">
             <li class="">
-              <a href="/Colobane_Online/signin" class=""><span class="value" style="color: #eaeaea; font-size: medium;">Devenez Vendeur</span></a>
+              <a href="/ColobaneOnline/signin" class=""><span class="value" style="color: #eaeaea; font-size: medium;">Devenez Vendeur</span></a>
             </li>
           </ul>
           <!-- /.list-unstyled -->
@@ -36,7 +36,7 @@
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-3 logo-holder"> 
           <!-- ============================================================= LOGO ============================================================= -->
-          <div class="logo"> <a href="/Colobane_Online/"> <img src="${pageContext.request.contextPath}/assets/images/logo.png" alt="logo"> </a> </div>
+          <div class="logo"> <a href="/ColobaneOnline/"> <img src="${pageContext.request.contextPath}/assets/images/logo.png" alt="logo"> </a> </div>
           <!-- /.logo --> 
           <!-- ============================================================= LOGO : END ============================================================= --> </div>
         <!-- /.logo-holder -->
@@ -129,13 +129,13 @@
           <div class="navbar-collapse collapse" id="mc-horizontal-menu-collapse">
             <div class="nav-outer">
               <ul class="nav navbar-nav">
-                <li class="active dropdown"> <a href="/Colobane_Online/">Accueil</a> </li>
-                <li class="dropdown"> <a href="/Colobane_Online/categories">Catégories</a></li>
+                <li class="active dropdown"> <a href="/ColobaneOnline/">Accueil</a> </li>
+                <li class="dropdown"> <a href="/ColobaneOnline/categories">Catï¿½gories</a></li>
                 <li class="dropdown hidden-sm">
-                  <a href="/Colobane_Online/bestSells">Meilleures Ventes<span class="menu-label hot-menu hidden-xs">hot</span></a>
+                  <a href="/ColobaneOnline/bestSells">Meilleures Ventes<span class="menu-label hot-menu hidden-xs">hot</span></a>
                 </li>
                 <li class="dropdown hidden-sm">
-                  <a href="/Colobane_Online/newItems">Dernières Nouveautés<span class="menu-label new-menu hidden-xs">new</span> </a>
+                  <a href="/ColobaneOnline/newItems">Derniï¿½res Nouveautï¿½s<span class="menu-label new-menu hidden-xs">new</span> </a>
                 </li>
                 <li class="dropdown"> <a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">Commande</a>
                   <ul class="dropdown-menu pages">
@@ -144,8 +144,8 @@
                         <div class="row">
                           <div class="col-xs-12 col-menu">
                             <ul class="links">
-                              <li><a href="/Colobane_Online/order">Passer votre Commande</a></li>
-                              <li><a href="/Colobane_Online/deliver">Confirmer Livraison</a></li>
+                              <li><a href="/ColobaneOnline/order">Passer votre Commande</a></li>
+                              <li><a href="/ColobaneOnline/deliver">Confirmer Livraison</a></li>
                             </ul>
                           </div>
                         </div>
@@ -154,7 +154,7 @@
                   </ul>
                 </li>
                 <li class="dropdown"> <a href="category.html">Aide <i class="fa fa-question-circle" style="font-size: larger"></i></a></li>
-                <li class="dropdown"> <a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">À Propos</a>
+                <li class="dropdown"> <a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">ï¿½ Propos</a>
                   <ul class="dropdown-menu pages">
                     <li>
                       <div class="yamm-content">
