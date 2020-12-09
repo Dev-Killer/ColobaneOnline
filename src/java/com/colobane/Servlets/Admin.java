@@ -6,20 +6,22 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class BestSells extends HttpServlet {
+public class Admin extends HttpServlet {
 
-    public static final String VUE = "/WEB-INF/bestSells.jsp";
+    public static final String VUE = "/WEB-INF/admin.jsp";
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         this.getServletContext().getRequestDispatcher(VUE).forward(request, response);
+
     }
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         this.getServletContext().getRequestDispatcher(VUE).forward(request, response);
+
     }
 
 }
