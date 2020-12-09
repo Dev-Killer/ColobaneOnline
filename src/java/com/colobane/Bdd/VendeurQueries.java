@@ -12,6 +12,9 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  *
@@ -36,7 +39,8 @@ public void addVendeur(Vendeur vendeur){
         } catch (SQLException e) {
             e.printStackTrace();
         }
-    
+  
+        
  }
  public int[] findVendeur(String email,String password) throws SQLException {
         ResultSet rs = null;
@@ -56,12 +60,56 @@ public void addVendeur(Vendeur vendeur){
         while (rs.next()) {
                resultSearch[0]=1;
                resultSearch[1]=rs.getInt("ID_ACHETEUR");
+               rs.close();
+        
             return resultSearch;
-        }       
+        }
+        rs.close();
         resultSearch[0]=0;
    
          return resultSearch;
         
     }
+public List<Vendeur> recupererVendeurs() {
+        List<Vendeur> vendeurs = new ArrayList<Vendeur>();
+        Statement statement = null;
+        ResultSet resultat = null;
 
+        
+        try {
+            statement = con.createStatement();
+
+            // Exécution de la requête
+            resultat = statement.executeQuery("SELECT *FROM vendeur;");
+
+            // Récupération des données
+            while (resultat.next()) {
+                String nom = resultat.getString("NOM");
+                String prenom = resultat.getString("PRENOM");
+                String password = resultat.getString("PASSWORD");
+                String adresse = resultat.getString("ADRESSE");
+                String telephone = resultat.getString("TELEPHONE");
+                
+                
+                
+                Vendeur vendeur = new Vendeur(nom, prenom, password, adresse,telephone);
+                
+                vendeurs.add(vendeur);
+            }
+        } catch (SQLException e) {
+        } finally {
+            // Fermeture de la connexion
+            try {
+                if (resultat != null)
+                    resultat.close();
+                if (statement != null)
+                    statement.close();
+                if (con != null)
+                    con.close();
+            } catch (SQLException ignore) {
+            }
+        }
+        
+        return vendeurs;
+    }
 }
