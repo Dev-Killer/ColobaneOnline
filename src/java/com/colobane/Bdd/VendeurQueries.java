@@ -70,7 +70,7 @@ public void addVendeur(Vendeur vendeur){
          return resultSearch;
         
     }
-public List<Vendeur> recupererVendeurs() {
+public List<Vendeur> getAllVendeurs() {
         List<Vendeur> vendeurs = new ArrayList<Vendeur>();
         Statement statement = null;
         ResultSet resultat = null;
