@@ -1,7 +1,9 @@
 package com.colobane.Servlets;
 
+import com.colobane.Bdd.AcheteurQueries;
 import com.colobane.Bdd.AdministrateurQueries;
 import com.colobane.Bdd.VendeurQueries;
+import com.colobane.Beans.Acheteur;
 import com.colobane.Beans.Vendeur;
 import com.colobane.utils.Sha256;
 import com.colobane.utils.ValidationForm;
@@ -25,9 +27,10 @@ public class Admin extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        this.getServletContext().getRequestDispatcher(VUE).forward(request, response);
+      
+          this.getServletContext().getRequestDispatcher(VUE).forward(request, response);
 
-    }
+                }
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
@@ -41,16 +44,11 @@ public class Admin extends HttpServlet {
             result = connexion.findAdmin(nom, password);
         } catch (SQLException ex) {
             Logger.getLogger(Admin.class.getName()).log(Level.SEVERE, null, ex);
-        }
-
-              
+        }        
                 if (result[0] == 1) {
                     HttpSession session = request.getSession();
-                    session.setAttribute("id", result[1]);
+                    session.setAttribute("id_admin", result[1]);
                     session.setAttribute("nom",nom);
-                    VendeurQueries connexionVendeur= new VendeurQueries();
-                    ArrayList<Vendeur> ALL_VENDEURS= (ArrayList<Vendeur>) connexionVendeur.recupererVendeurs();
-                    request.setAttribute("listVendeurs",ALL_VENDEURS);
                     this.getServletContext().getRequestDispatcher("/WEB-INF/homeAdmin.jsp").forward(request, response);
 
                 } else {
