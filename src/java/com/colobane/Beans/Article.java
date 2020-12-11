@@ -6,10 +6,18 @@ public class Article {
    public java.lang.String image;
    public float prix;
    public java.lang.String description;
-   
+   public String categorie;
 
     public int getIdArticle() {
         return idArticle;
+    }
+
+    public String getCategorie() {
+        return categorie;
+    }
+
+    public void setCategorie(String categorie) {
+        this.categorie = categorie;
     }
 
     public void setIdArticle(int idArticle) {
