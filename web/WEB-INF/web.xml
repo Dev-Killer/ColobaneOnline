@@ -36,6 +36,22 @@
         <servlet-name>Admin</servlet-name>
         <servlet-class>com.colobane.Servlets.Admin</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ConfirmerDesactivation</servlet-name>
+        <servlet-class>com.colobane.Servlets.ConfirmerDesactivation</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>TestArticle</servlet-name>
+        <servlet-class>com.colobane.Servlets.TestArticle</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AfficheAdmin</servlet-name>
+        <servlet-class>com.colobane.Servlets.AfficheAdmin</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DeconnexionAdmin</servlet-name>
+        <servlet-class>com.colobane.Servlets.DeconnexionAdmin</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Connexion</servlet-name>
         <url-pattern>/connexion</url-pattern>
@@ -80,6 +96,32 @@
         <servlet-name>Admin</servlet-name>
         <url-pattern>/intadmin</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ConfirmerDesactivation</servlet-name>
+        <url-pattern>/intadmin/confirmation/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>TestArticle</servlet-name>
+        <url-pattern>/testarticle</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AfficheAdmin</servlet-name>
+        <url-pattern>/intadmin/show</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DeconnexionAdmin</servlet-name>
+        <url-pattern>/intadmin/deconnexion</url-pattern>
+    </servlet-mapping>
+     <filter>
+        <filter-name>AdminFilter</filter-name>
+        <filter-class>com.colobane.filters.AdminFilter</filter-class>
+    </filter>
+     <filter-mapping>
+        <filter-name>AdminFilter</filter-name>
+        <url-pattern>/intadmin/show</url-pattern>
+        <url-pattern>/intadmin/confirmation</url-pattern>
+   
+     </filter-mapping>
     <session-config>
         <session-timeout>
         30

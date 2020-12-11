@@ -19,56 +19,19 @@
 
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 
-        <script type="text/javascript" src="${pageContext.request.contextPath}/assets/js/userprofile.js"></script> 
-        <link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/userprofile.css">
 
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
     </head>
     <body>
+        <a  class="btn btn-danger" style="float: right;" href="/ColobaneOnline/intadmin/deconnexion"  >Se deconnecter </a>
         
-        <h1  class="d-flex justify-content-center" >Liste des clients</h1>
-        <div class="container-xl">
-            <div class="table-responsive">
-                <div class="table-wrapper">
-                    <div class="table-title">
-                        <div class="row">
-                            <div class="col-sm-5">
-                                <h2>Gestion des  <b>Vendeurs</b></h2>
-                            </div>
-                            <div class="col-sm-7">
-                            </div>
-                        </div>
-                    </div>
-                    <table class="table table-striped table-hover">
-                        <thead>
-                            <tr>
-                                <th>Nom</th>
-                                <th>Prenom</th>						
-                                <th>E-mail</th>
-                                <th>Actions</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <c:forEach items="${ listVendeurs }" var="vendeur" varStatus="status">
-
-                                <tr>
-
-                                    <td> <c:out value="${ vendeur.nom }" /> </td>
-                                    <td> <c:out value="${ vendeur.prenom }" /> </td>                        
-                                    <td> <c:out value="${ vendeur.adresse }" /> </td>
-                                    <td>
-                                        <a href="/users/confirmer/"+${vendeur.nom} class="delete " title="Delete" data-toggle="tooltip"><i class="fas fa-trash"></i></a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                </c:forEach>
-                        </tbody>
-                    </table>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</body>
+        <br><br><br><br> 
+        
+    <center>
+        <a class="btn btn-warning" style="margin: 5px;" href="/ColobaneOnline/intadmin/show?req=acheteur"  >Liste des acheteurs </a>
+        <a class="btn btn-primary" style="margin: 5px;" href="/ColobaneOnline/intadmin/show?req=vendeur"  >Listes des vendeurs </a>
+        <a class="btn btn-danger" style="margin: 5px;" href="/ColobaneOnline/intadmin/show?req=commande"  >Listes des commandes </a>
+    </center>
+    </body>
 </html>
