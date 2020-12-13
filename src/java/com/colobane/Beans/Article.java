@@ -1,5 +1,7 @@
 package com.colobane.Beans;
 
+import java.sql.Date;
+
 public class Article {
 	private int idArticle;
 	private String nomArticle;
@@ -8,8 +10,21 @@ public class Article {
 	private String description;
 	private int quantite;
 	private String categorie;
+	private Date dateCreation;
 	
 	
+
+	public Article(int idArticle, String nomArticle, String image, Float prix, String description, int quantite,
+			String categorie, Date dateCreation) {
+		this.idArticle = idArticle;
+		this.nomArticle = nomArticle;
+		this.image = image;
+		this.prix = prix;
+		this.description = description;
+		this.quantite = quantite;
+		this.categorie = categorie;
+		this.dateCreation = dateCreation;
+	}
 
 	public Article(String nomArticle, String image, Float prix, String description, int quantite,
 			String categorie) {
@@ -75,6 +90,14 @@ public class Article {
 
 	public void setQuantite(int quantite) {
 		this.quantite = quantite;
+	}
+
+	public Date getDateCreation() {
+		return dateCreation;
+	}
+
+	public void setDateCreation(Date dateCreation) {
+		this.dateCreation = dateCreation;
 	}
 
 }
