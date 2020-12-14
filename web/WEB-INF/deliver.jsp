@@ -32,7 +32,7 @@
 			<div class="row">
 				<div class="col-md-12">
 	<h2 class="heading-title">Confirmation de Livraison</h2>
-	<span class="title-tag inner-top-ss">Page Réservée à la LIVRAISON. Veuillez saisir votre CODE COMMANDE dans la case correspondant ci-dessous. Ce dernier vous a été remis aprés avoir confirmé votre commande.</span>
+	<span class="title-tag inner-top-ss">Page R�serv�e � la LIVRAISON. Veuillez saisir votre CODE COMMANDE dans la case correspondant ci-dessous. Ce dernier vous a �t� remis apr�s avoir confirm� votre commande.</span>
 	<form method="post" action="deliver" class="register-form outer-top-xs" role="form">
 		<div class="form-group">
 		    <label class="info-title" for="livreur">ID Livreur</label>
@@ -60,9 +60,9 @@
 <%@ include file="footer.jsp"%>
 <!-- ============================================================= FOOTER : END============================================================= --> 
 
-<!-- For demo purposes Ã¢â‚¬â€œ can be removed on production --> 
+<!-- For demo purposes â€“ can be removed on production --> 
 
-<!-- For demo purposes Ã¢â‚¬â€œ can be removed on production : End --> 
+<!-- For demo purposes â€“ can be removed on production : End --> 
 
 <!-- JavaScripts placed at the end of the document so the pages load faster --> 
 <%@ include file="script.jsp"%>

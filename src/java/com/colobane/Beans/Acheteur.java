@@ -1,7 +1,5 @@
 package com.colobane.Beans;
 
-import java.util.*;
-
 public class Acheteur {
 
     public int idAcheteur;

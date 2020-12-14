@@ -6,15 +6,11 @@
 package com.colobane.Bdd;
 
 import com.colobane.Beans.Acheteur;
-import com.colobane.Beans.Vendeur;
 import com.colobane.utils.ConnexionDB;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  *
@@ -60,52 +56,11 @@ public class AcheteurQueries {
                resultSearch[1]=rs.getInt("ID_ACHETEUR");
             return resultSearch;
         }       
+        rs.close();
         resultSearch[0]=0;
    
          return resultSearch;
         
     }
 
-    public List<Acheteur> getAllAcheteurs() {
-        List<Acheteur> acheteurs = new ArrayList<Acheteur>();
-        Statement statement = null;
-        ResultSet resultat = null;
-
-        
-        try {
-            statement = con.createStatement();
-
-            // Exécution de la requête
-            resultat = statement.executeQuery("SELECT *FROM acheteur;");
-
-            // Récupération des données
-            while (resultat.next()) {
-                String nom = resultat.getString("NOM");
-                String prenom = resultat.getString("PRENOM");
-                String password = resultat.getString("PASSWORD");
-                String adresse = resultat.getString("ADRESSE");
-                String telephone = resultat.getString("TELEPHONE");
-                
-                
-                
-                Acheteur acheteur = new Acheteur(nom, prenom, password, adresse,telephone);
-                
-                acheteurs.add(acheteur);
-            }
-        } catch (SQLException e) {
-        } finally {
-            // Fermeture de la connexion
-            try {
-                if (resultat != null)
-                    resultat.close();
-                if (statement != null)
-                    statement.close();
-                if (con != null)
-                    con.close();
-            } catch (SQLException ignore) {
-            }
-        }
-        
-        return acheteurs;
-    }
 }

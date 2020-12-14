@@ -5,7 +5,7 @@
 <!-- Meta -->
 
 <jsp:include page="metaHead.jsp">
-	<jsp:param value="title" name="Colobane Online"/>
+	<jsp:param name="title" value="Colobane Online"/>
 </jsp:include>
 
 </head>
@@ -67,7 +67,7 @@
         <!-- ============================================== SCROLL TABS ============================================== -->
         <div id="product-tabs-slider" class="scroll-tabs outer-top-vs">
           <div class="more-info-tab clearfix ">
-            <h3 class="new-product-title pull-left">New Products</h3>
+            <h3 class="new-product-title pull-left">Collection</h3>
             <ul class="nav nav-tabs nav-tab-line pull-right" id="new-products-1">
               <li class="active"><a data-transition-type="backSlide" href="#all" data-toggle="tab">All</a></li>
               <li><a data-transition-type="backSlide" href="#smartphone" data-toggle="tab">Clothing</a></li>
@@ -109,7 +109,8 @@
                           <div class="action">
                             <ul class="list-unstyled">
                               <li class="add-cart-button btn-group">
-                                <button data-toggle="tooltip" class="btn btn-primary icon" type="button" title="Add Cart"> <i class="fa fa-shopping-cart"></i> </button>
+                                <button data-toggle="tooltip" class="btn btn-primary icon" type="button" title="Add Cart" id="addcart"> <i class="fa fa-shopping-cart"></i> </button>
+                                <input type="hidden" value="1" id="TestMaJquery"/> <!-- on met val id du item dans value attribute -->
                                 <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                               </li>
                               <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart" href="/ColobaneOnline/detail" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
@@ -2227,6 +2228,44 @@
   </div>
   <!-- /.container --> 
 </div>
+<div id="brands-carousel" class="logo-slider">
+      <div class="logo-slider-inner">
+        <div id="brand-slider" class="owl-carousel brand-slider custom-carousel owl-theme">
+          <div class="item m-t-15"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand1.png" src="assets/images/blank.gif" alt=""> </a> </div>
+          <!--/.item-->
+          
+          <div class="item m-t-10"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand2.png" src="assets/images/blank.gif" alt=""> </a> </div>
+          <!--/.item-->
+          
+          <div class="item"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand3.png" src="assets/images/blank.gif" alt=""> </a> </div>
+          <!--/.item-->
+          
+          <div class="item"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand4.png" src="assets/images/blank.gif" alt=""> </a> </div>
+          <!--/.item-->
+          
+          <div class="item"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand5.png" src="assets/images/blank.gif" alt=""> </a> </div>
+          <!--/.item-->
+          
+          <div class="item"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand6.png" src="assets/images/blank.gif" alt=""> </a> </div>
+          <!--/.item-->
+          
+          <div class="item"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand2.png" src="assets/images/blank.gif" alt=""> </a> </div>
+          <!--/.item-->
+          
+          <div class="item"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand4.png" src="assets/images/blank.gif" alt=""> </a> </div>
+          <!--/.item-->
+          
+          <div class="item"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand1.png" src="assets/images/blank.gif" alt=""> </a> </div>
+          <!--/.item-->
+          
+          <div class="item"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand5.png" src="assets/images/blank.gif" alt=""> </a> </div>
+          <!--/.item--> 
+        </div>
+        <!-- /.owl-carousel #logo-slider --> 
+      </div>
+      <!-- /.logo-slider-inner --> 
+      
+    </div>
 <!-- /#top-banner-and-menu --> 
 
         <!-- ============================================== INFO BOXES ============================================== -->
@@ -2240,6 +2279,24 @@
 
 <!-- JavaScripts placed at the end of the document so the pages load faster --> 
 <%@ include file="script.jsp"%>
+<script type="text/javascript">
+  $("#addcart").on('click', function(event) {
+    var currentCount = parseInt($(".count").text());
+    $.ajax({
+      url: 'home',
+      type: 'POST',
+      data: {action: "ajax",
+            param1: currentCount,
+      },
+    })
+    .done(function(data) {
+      $(".count").text(""+data+"");
+    })
+    .fail(function() {
+      alert("error");
+    });
+  });
+</script>
 </body>
 
 </html>
