@@ -1,6 +1,7 @@
 package com.colobane.utils;
 
-import com.colobane.Beans.Acheteur;
+
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.regex.Matcher;
@@ -14,12 +15,28 @@ public class ValidationForm {
     private static final String CHAMP_PASS = "password";
     private static final String CHAMP_CONF = "confirmation";
     private static final String CHAMP_ADRESSE = "adresse";
-     private static final String CHAMP_TELEPHONE = "telephone";
+     @SuppressWarnings("unused")
+	private static final String CHAMP_TELEPHONE = "telephone";
    
     private static final Pattern VALID_EMAIL_REGEX = Pattern.compile("^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,6}$", Pattern.CASE_INSENSITIVE);
     private static final Pattern VALID_PASSWORD_REGEX = Pattern.compile("^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=])(?=\\S+$).{8,}$");
     private Map<String, String> erreurs = new HashMap<String, String>();
-
+    
+    public boolean isBlankString(String string) {
+        return string == null || string.trim().isEmpty();
+    }
+    
+    public boolean isBlankListString(ArrayList<String> strings) {
+    	Boolean bool = false;
+    	for (String string : strings) {
+    		bool = string == null || string.trim().isEmpty();
+    		if (bool) {
+				break;
+			}
+		}
+        return bool;
+    }
+    
     private void setErreur(String champ, String message) {
         erreurs.put(champ, message);
     }
