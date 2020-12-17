@@ -7,8 +7,8 @@ public enum CategEnum {
 	Montre("Montre"),
 	Bijoux("Bijoux"),
 	SantéBeauté("Santé & Beauté"),
-	EnfantsBébés("Enfants & Bébés"),
-	Sports("Sports");
+	EnfantsBébés("Enfant & Bébés"),
+	Sports("Sport");
 	
 	public final String categ;
 	
