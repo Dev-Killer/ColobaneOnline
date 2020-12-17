@@ -12,14 +12,16 @@
 
 <body class="cnt-home">
 
-<%@ include file="header.jsp" %>
+<jsp:include page="header.jsp">
+	<jsp:param name="cart" value="${ count }"/>
+</jsp:include>
 
 <!-- ============================================== HEADER : END ============================================== -->
 <div class="breadcrumb">
     <div class="container">
         <div class="breadcrumb-inner">
             <ul class="list-inline list-unstyled">
-                <li><a href="#">Accueil</a></li>
+                <li><a href="/ColobaneOnline/">Accueil</a></li>
                 <li class='active'>Passer Votre Commande</li>
             </ul>
         </div><!-- /.breadcrumb-inner -->
@@ -96,7 +98,7 @@
                                             </div>
                                         </div>
                                     </div><!-- /.row -->
-                                    <div class="cart-product-info">
+                                    <div class="cart-product-info"></div>
                                 </td>
                                 <td class="cart-product-quantity">
                                     <div class="cart-quantity">
