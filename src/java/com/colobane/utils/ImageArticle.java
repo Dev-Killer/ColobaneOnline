@@ -1,10 +1,7 @@
 package com.colobane.utils;
 
-import java.io.BufferedInputStream;
-import java.io.BufferedOutputStream;
 import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
+import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -14,53 +11,15 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.Part;
-
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.FileItemFactory;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
-import org.apache.tomcat.jni.Time;
 
 import com.colobane.Bdd.ArticleQueries;
 import com.colobane.Beans.Article;
 
 public class ImageArticle {
-    public static final int TAILLE_TAMPON = 10240;
-	
-	
-	public void ecrireFichier( Part part, String nomFichier, String chemin ) throws IOException {
-        BufferedInputStream entree = null;
-        BufferedOutputStream sortie = null;
-        try {
-            entree = new BufferedInputStream(part.getInputStream(), TAILLE_TAMPON);
-            sortie = new BufferedOutputStream(new FileOutputStream(new File(chemin + nomFichier)), TAILLE_TAMPON);
-
-            byte[] tampon = new byte[TAILLE_TAMPON];
-            int longueur;
-            while ((longueur = entree.read(tampon)) > 0) {
-                sortie.write(tampon, 0, longueur);
-            }
-        } finally {
-            try {
-                sortie.close();
-            } catch (IOException ignore) {
-            }
-            try {
-                entree.close();
-            } catch (IOException ignore) {
-            }
-        }
-    }
-    
-    public String getNomFichier( Part part ) {
-        for ( String contentDisposition : part.getHeader( "content-disposition" ).split( ";" ) ) {
-            if ( contentDisposition.trim().startsWith( "filename" ) ) {
-                return contentDisposition.substring( contentDisposition.indexOf( '=' ) + 1 ).trim().replace( "\"", "" );
-            }
-        }
-        return null;
-    }   
     
     public boolean isImageFile(String str)
     {
@@ -103,6 +62,7 @@ public class ImageArticle {
     
     public HashMap<String, Object> processUploadedFile(FileItem item, HttpServletRequest request) {
     	HashMap<String, Object> fileInfo = new HashMap<String, Object>();
+    	Timestamp timestamp = new Timestamp(System.currentTimeMillis());
     	// Process a file upload
     	if (!item.isFormField()) {
     	    String fieldName = item.getFieldName();
@@ -110,7 +70,7 @@ public class ImageArticle {
     	    String contentType = item.getContentType();
     	    boolean isInMemory = item.isInMemory();
     	    long sizeInBytes = item.getSize();
-    	    String newFilename = Time.now()+"."+fileName.split("\\.")[fileName.split("\\.").length-1];
+    	    String newFilename = timestamp.getTime()+"."+fileName.split("\\.")[fileName.split("\\.").length-1];
 //    	    System.out.println(newFilename+"\n\n");
     	    String root = request.getServletContext().getRealPath("/");
     	    File path = new File(root + "/assets/imageUp");
