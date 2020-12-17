@@ -17,7 +17,7 @@
         <div class="cnt-block">
           <ul class="list-inline">
             <li class="">
-              <a href="/ColobaneOnline/signin" class=""><span class="value" style="color: #eaeaea; font-size: medium;">Devenez Vendeur</span></a>
+              <a href="/ColobaneOnline/signup" class=""><span class="value" style="color: #eaeaea; font-size: medium;">Devenez Vendeur</span></a>
             </li>
           </ul>
           <!-- /.list-unstyled -->
@@ -51,7 +51,7 @@
                   <li class="dropdown"> <a class="dropdown-toggle"  data-toggle="dropdown" href="category.html">Categories <b class="caret"></b></a>
                     <ul class="dropdown-menu" role="menu" >
                       <li class="menu-header">Computer</li>
-                      <li role="presentation"><a role="menuitem" tabindex="-1" href="category.html">- Clothing</a></li>
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href="category.html">- Modes</a></li>
                       <li role="presentation"><a role="menuitem" tabindex="-1" href="category.html">- Electronics</a></li>
                       <li role="presentation"><a role="menuitem" tabindex="-1" href="category.html">- Shoes</a></li>
                       <li role="presentation"><a role="menuitem" tabindex="-1" href="category.html">- Watches</a></li>
@@ -72,7 +72,7 @@
           <div class="dropdown dropdown-cart"> <a href="#" class="dropdown-toggle lnk-cart" data-toggle="dropdown">
             <div class="items-cart-inner">
               <div class="basket">
-              <div class="basket-item-count"><span class="count">2</span></div>
+              <div class="basket-item-count"><span class="count">${ param.cart }</span></div>
               <div class="total-price-basket"> <span class="value">Panier</span> <!-- span class="value">$4580</span --> </div>
               </div>
             </div>
@@ -130,14 +130,14 @@
             <div class="nav-outer">
               <ul class="nav navbar-nav">
                 <li class="active dropdown"> <a href="/ColobaneOnline/">Accueil</a> </li>
-                <li class="dropdown"> <a href="/ColobaneOnline/categories">Catï¿½gories</a></li>
+                <li class="dropdown"> <a href="/ColobaneOnline/categories">Catégories</a></li>
                 <li class="dropdown hidden-sm">
                   <a href="/ColobaneOnline/bestSells">Meilleures Ventes<span class="menu-label hot-menu hidden-xs">hot</span></a>
                 </li>
                 <li class="dropdown hidden-sm">
-                  <a href="/ColobaneOnline/newItems">Derniï¿½res Nouveautï¿½s<span class="menu-label new-menu hidden-xs">new</span> </a>
+                  <a href="/ColobaneOnline/newItems">Dernières Nouveautés<span class="menu-label new-menu hidden-xs">new</span> </a>
                 </li>
-                <li class="dropdown"> <a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">Commande</a>
+                <li class="dropdown"> <a href="/ColobaneOnline/order" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">Commande</a>
                   <ul class="dropdown-menu pages">
                     <li>
                       <div class="yamm-content">
@@ -154,15 +154,15 @@
                   </ul>
                 </li>
                 <li class="dropdown"> <a href="category.html">Aide <i class="fa fa-question-circle" style="font-size: larger"></i></a></li>
-                <li class="dropdown"> <a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">ï¿½ Propos</a>
+                <li class="dropdown"> <a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">À Propos</a>
                   <ul class="dropdown-menu pages">
                     <li>
                       <div class="yamm-content">
                         <div class="row">
                           <div class="col-xs-12 col-menu">
                             <ul class="links">
-                              <li><a href="contact.html">Contact</a></li>
-                              <li><a href="terms-conditions.html">Termes et Condition</a></li>
+                              <li><a href="#">Contact</a></li>
+                              <li><a href="#">Termes et Condition</a></li>
                               <li><a href="#">Service Client</a></li>
                             </ul>
                           </div>
