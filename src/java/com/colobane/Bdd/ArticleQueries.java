@@ -12,7 +12,6 @@ import java.util.List;
 import com.colobane.Beans.Article;
 import com.colobane.utils.ConnexionDB;
 
-
 public class ArticleQueries {
 	Connection con = ConnexionDB.connecterDB();
 
@@ -43,13 +42,13 @@ public class ArticleQueries {
 	}
 
 	public List<Article> getAllArticlesList() {
+		String query = "SELECT * from article;";
 		List<Article> articles = new ArrayList<Article>();
 		Statement stmt;
 		try {
 			stmt = con.createStatement();
-			ResultSet rs = stmt.executeQuery("SELECT * from article;");
-			boolean next = rs.next();
-			while (next) {
+			ResultSet rs = stmt.executeQuery(query);
+			while (rs.next()) {
 				int idArticle = rs.getInt("ID_ARTICLE");
 				String nomArticle = rs.getString("NOM");
 				String image = rs.getString("IMAGE");
@@ -61,8 +60,6 @@ public class ArticleQueries {
 
 				articles.add(new Article(idArticle, nomArticle, image, prix, description, quantite, categorie,
 						dateCreation));
-
-				rs.next();
 			}
 			rs.close();
 		} catch (SQLException e) {
@@ -73,14 +70,14 @@ public class ArticleQueries {
 	}
 
 	public List<Article> getArticlesByCateg(String categ) {
+		String query = "SELECT * FROM article WHERE article.TYPE_CATEGORIE = '" + categ
+				+ "' ORDER BY article.DATE_CREATION DESC;";
 		List<Article> articles = new ArrayList<Article>();
 		Statement stmt;
 		try {
 			stmt = con.createStatement();
-			ResultSet rs = stmt.executeQuery("SELECT * FROM article WHERE article.TYPE_CATEGORIE = '" + categ
-					+ "' ORDER BY article.DATE_CREATION DESC;");
-			boolean next = rs.next();
-			while (next) {
+			ResultSet rs = stmt.executeQuery(query);
+			while (rs.next()) {
 				int idArticle = rs.getInt("ID_ARTICLE");
 				String nomArticle = rs.getString("NOM");
 				String image = rs.getString("IMAGE");
@@ -92,8 +89,6 @@ public class ArticleQueries {
 
 				articles.add(new Article(idArticle, nomArticle, image, prix, description, quantite, categorie,
 						dateCreation));
-
-				rs.next();
 			}
 			rs.close();
 		} catch (SQLException e) {
@@ -103,16 +98,16 @@ public class ArticleQueries {
 		return articles;
 	}
 
-	public List<Article> getArticlesByPriceRangeOrderedBy(int min, int max, String orderedBy) {
-
+	public List<Article> getArticlesByPriceRangeLimitedOrderedBy(int min, int max, String orderedBy, int limit) {
+		String query = "SELECT * FROM article WHERE PRIX BETWEEN " + min + " AND " + max + ""
+				+ ((orderedBy != null) ? " ORDER BY " + orderedBy + ((limit > 0) ? " LIMIT " + limit + ";" : ";")
+						: ((limit > 0) ? " LIMIT " + limit + ";" : ";"));
 		List<Article> articles = new ArrayList<Article>();
 		Statement stmt;
 		try {
 			stmt = con.createStatement();
-			ResultSet rs = stmt.executeQuery("SELECT * FROM article WHERE PRIX BETWEEN " + min + " AND " + max + ""
-					+ ((orderedBy != null) ? " ORDER BY "+orderedBy+";" : ";"));
-			boolean next = rs.next();
-			while (next) {
+			ResultSet rs = stmt.executeQuery(query);
+			while (rs.next()) {
 				int idArticle = rs.getInt("ID_ARTICLE");
 				String nomArticle = rs.getString("NOM");
 				String image = rs.getString("IMAGE");
@@ -124,8 +119,6 @@ public class ArticleQueries {
 
 				articles.add(new Article(idArticle, nomArticle, image, prix, description, quantite, categorie,
 						dateCreation));
-
-				rs.next();
 			}
 			rs.close();
 		} catch (SQLException e) {
@@ -137,12 +130,14 @@ public class ArticleQueries {
 
 	public List<Article> getArticlesLimitedOrderedBy(int limit, String orderedBy) {
 		List<Article> articles = new ArrayList<Article>();
+		String query = "SELECT * FROM article "
+				+ ((orderedBy != null) ? " ORDER BY " + orderedBy + ((limit > 0) ? " LIMIT " + limit + ";" : ";")
+						: ((limit > 0) ? " LIMIT " + limit + ";" : ";"));
 		Statement stmt;
 		try {
 			stmt = con.createStatement();
-			ResultSet rs = stmt.executeQuery("SELECT * FROM article " + ((orderedBy != null) ? " ORDER BY "+orderedBy+((limit > 0) ? " LIMIT "+limit+";" : ";") : ((limit > 0) ? " LIMIT "+limit+";" : ";")));
-			boolean next = rs.next();
-			while (next) {
+			ResultSet rs = stmt.executeQuery(query);
+			while (rs.next()) {
 				int idArticle = rs.getInt("ID_ARTICLE");
 				String nomArticle = rs.getString("NOM");
 				String image = rs.getString("IMAGE");
@@ -154,8 +149,39 @@ public class ArticleQueries {
 
 				articles.add(new Article(idArticle, nomArticle, image, prix, description, quantite, categorie,
 						dateCreation));
+			}
+			rs.close();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return articles;
+	}
 
-				rs.next();
+	public List<Article> getArticlesWithEqualFilterLimitedOrderedBy(int limit, String orderedBy, String whereFilter,
+			String whereValue) {
+		List<Article> articles = new ArrayList<Article>();
+		String query = "SELECT * FROM article "
+				+ ((whereFilter != null && whereValue != null) ? "WHERE " + whereFilter + " = '" + whereValue + "'"
+						: " ")
+				+ ((orderedBy != null) ? " ORDER BY " + orderedBy + ((limit > 0) ? " LIMIT " + limit + ";" : ";")
+						: ((limit > 0) ? " LIMIT " + limit + ";" : ";"));
+		Statement stmt;
+		try {
+			stmt = con.createStatement();
+			ResultSet rs = stmt.executeQuery(query);
+			while (rs.next()) {
+				int idArticle = rs.getInt("ID_ARTICLE");
+				String nomArticle = rs.getString("NOM");
+				String image = rs.getString("IMAGE");
+				Float prix = rs.getFloat("PRIX");
+				String description = rs.getString("DESCRIPTION");
+				int quantite = rs.getInt("QUANTITE");
+				String categorie = rs.getString("TYPE_CATEGORIE");
+				Date dateCreation = rs.getDate("DATE_CREATION");
+
+				articles.add(new Article(idArticle, nomArticle, image, prix, description, quantite, categorie,
+						dateCreation));
 			}
 			rs.close();
 		} catch (SQLException e) {
