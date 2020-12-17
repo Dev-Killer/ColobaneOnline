@@ -12,7 +12,9 @@
 
 <body class="cnt-home">
 
-<%@ include file="header.jsp" %>
+<jsp:include page="header.jsp">
+	<jsp:param name="cart" value="${ count }"/>
+</jsp:include>
 
 <!-- ============================================== HEADER : END ============================================== -->
 <div class="breadcrumb">
