@@ -39,6 +39,24 @@ public class CartController {
 		
 	}
 	
+	public List<String> cartrem(String cart, String str1) {
+		if (cart != null && !cart.equals("")) {;
+			String[] str = cart.split(",");
+			List<String> tes = new ArrayList<String>(Arrays.asList(str));
+			int t = Integer.parseInt(str1);
+			for (int i = 0; i < tes.size(); i++) {
+				if (tes.get(i) == str1) {
+					t = i;				
+				}
+			}
+			tes.remove(t);
+			return tes;
+		} else {
+			return null;
+		}
+		
+	}
+	
 	public int cartSize(String cart) {
 		if (cart != null && !cart.equals("")) {;
 			String[] str = cart.split(",");

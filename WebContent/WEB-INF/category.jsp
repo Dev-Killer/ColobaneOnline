@@ -191,7 +191,7 @@
                             <div class="product">
                               <div class="product-image">
                                 <div class="image">
-                                  <a href="detail.html?id=${article.idArticle}">
+                                  <a href="/ColobaneOnline/detail?id=${article.idArticle}">
                                     <img src="${article.image}" alt="">
                                   </a>
                                 </div>
@@ -202,7 +202,7 @@
                               <!-- /.product-image -->
                               
                               <div class="product-info text-left">
-                                <h3 class="name"><a href="detail.html"><c:out value="${article.nomArticle}" escapeXml="false" /></a></h3>
+                                <h3 class="name"><a href="/ColobaneOnline/detail?id=${article.idArticle}"><c:out value="${article.nomArticle}" escapeXml="false" /></a></h3>
                                 <div class="rating rateit-small"></div>
                                 <div class="description"></div>
                                 <div class="product-price"> <span class="price"> <c:out value="${article.prix} Fcfa" escapeXml="false" /> </span>
@@ -238,7 +238,7 @@
                           <div class="product">
                             <div class="product-image">
                               <div class="image">
-                                <a href="detail.html?id=${article.idArticle}">
+                                <a href="/ColobaneOnline/detail?id=${article.idArticle}">
                                   <img src="${article.image}" alt="">
                                 </a>
                               </div>
@@ -249,7 +249,7 @@
                             <!-- /.product-image -->
                             
                             <div class="product-info text-left">
-                              <h3 class="name"><a href="detail.html"><c:out value="${article.nomArticle}" escapeXml="false" /></a></h3>
+                              <h3 class="name"><a href="/ColobaneOnline/detail?id=${article.idArticle}"><c:out value="${article.nomArticle}" escapeXml="false" /></a></h3>
                               <div class="rating rateit-small"></div>
                               <div class="description"></div>
                               <div class="product-price"> <span class="price"> <c:out value="${article.prix} Fcfa" escapeXml="false" /> </span>
@@ -285,7 +285,7 @@
                         <div class="product">
                           <div class="product-image">
                             <div class="image">
-                              <a href="detail.html?id=${article.idArticle}">
+                              <a href="/ColobaneOnline/detail?id=${article.idArticle}">
                                 <img src="${article.image}" alt="">
                               </a>
                             </div>
@@ -296,7 +296,7 @@
                           <!-- /.product-image -->
                           
                           <div class="product-info text-left">
-                            <h3 class="name"><a href="detail.html"><c:out value="${article.nomArticle}" escapeXml="false" /></a></h3>
+                            <h3 class="name"><a href="/ColobaneOnline/detail?id=${article.idArticle}"><c:out value="${article.nomArticle}" escapeXml="false" /></a></h3>
                             <div class="rating rateit-small"></div>
                             <div class="description"></div>
                             <div class="product-price"> <span class="price"> <c:out value="${article.prix} Fcfa" escapeXml="false" /> </span>
@@ -351,7 +351,7 @@
                       <div class="product">
                         <div class="product-image">
                           <div class="image">
-                            <a href="detail.html?id=${article.idArticle}">
+                            <a href="/ColobaneOnline/detail?id=${article.idArticle}">
                               <img src="${article.image}" alt="">
                             </a>
                           </div>
@@ -362,7 +362,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="detail.html"><c:out value="${article.nomArticle}" escapeXml="false" /></a></h3>
+                          <h3 class="name"><a href="/ColobaneOnline/detail?id=${article.idArticle}"><c:out value="${article.nomArticle}" escapeXml="false" /></a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"> <span class="price"> <c:out value="${article.prix} Fcfa" escapeXml="false" /> </span>
@@ -398,7 +398,7 @@
                     <div class="product">
                       <div class="product-image">
                         <div class="image">
-                          <a href="detail.html?id=${article.idArticle}">
+                          <a href="/ColobaneOnline/detail?id=${article.idArticle}">
                             <img src="${article.image}" alt="">
                           </a>
                         </div>
@@ -409,7 +409,7 @@
                       <!-- /.product-image -->
                       
                       <div class="product-info text-left">
-                        <h3 class="name"><a href="detail.html"><c:out value="${article.nomArticle}" escapeXml="false" /></a></h3>
+                        <h3 class="name"><a href="/ColobaneOnline/detail?id=${article.idArticle}"><c:out value="${article.nomArticle}" escapeXml="false" /></a></h3>
                         <div class="rating rateit-small"></div>
                         <div class="description"></div>
                         <div class="product-price"> <span class="price"> <c:out value="${article.prix} Fcfa" escapeXml="false" /> </span>
@@ -445,7 +445,7 @@
                   <div class="product">
                     <div class="product-image">
                       <div class="image">
-                        <a href="detail.html?id=${article.idArticle}">
+                        <a href="/ColobaneOnline/detail?id=${article.idArticle}">
                           <img src="${article.image}" alt="">
                         </a>
                       </div>
@@ -456,7 +456,7 @@
                     <!-- /.product-image -->
                     
                     <div class="product-info text-left">
-                      <h3 class="name"><a href="detail.html"><c:out value="${article.nomArticle}" escapeXml="false" /></a></h3>
+                      <h3 class="name"><a href="/ColobaneOnline/detail?id=${article.idArticle}"><c:out value="${article.nomArticle}" escapeXml="false" /></a></h3>
                       <div class="rating rateit-small"></div>
                       <div class="description"></div>
                       <div class="product-price"> <span class="price"> <c:out value="${article.prix} Fcfa" escapeXml="false" /> </span>
@@ -492,7 +492,7 @@
                 <div class="product">
                   <div class="product-image">
                     <div class="image">
-                      <a href="detail.html?id=${article.idArticle}">
+                      <a href="/ColobaneOnline/detail?id=${article.idArticle}">
                         <img src="${article.image}" alt="">
                       </a>
                     </div>
@@ -503,7 +503,7 @@
                   <!-- /.product-image -->
                   
                   <div class="product-info text-left">
-                    <h3 class="name"><a href="detail.html"><c:out value="${article.nomArticle}" escapeXml="false" /></a></h3>
+                    <h3 class="name"><a href="/ColobaneOnline/detail?id=${article.idArticle}"><c:out value="${article.nomArticle}" escapeXml="false" /></a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
                     <div class="product-price"> <span class="price"> <c:out value="${article.prix} Fcfa" escapeXml="false" /> </span>

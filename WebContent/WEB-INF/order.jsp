@@ -47,81 +47,55 @@
                             </thead><!-- /thead -->
 
                             <tbody>
-                            <tr>
-                                <td class="romove-item"><a href="#" title="cancel" class="icon"><i class="fa fa-trash-o"></i></a></td>
-                                <td class="cart-image">
-                                    <a class="entry-thumbnail" href="/Colobane_Online/detail">
-                                        <img src="${pageContext.request.contextPath}/assets/images/products/p1.jpg" alt="">
-                                    </a>
-                                </td>
-                                <td class="cart-product-name-info">
-                                    <h4 class='cart-product-description'><a href="/Colobane_Online/detail">Floral Print Buttoned</a></h4>
-                                    <div class="row">
-                                        <div class="col-sm-12">
-                                            <div class="rating rateit-small"></div>
-                                        </div>
-                                        <div class="col-sm-12">
-                                            <div class="reviews">
-                                                (06 Reviews)
-                                            </div>
-                                        </div>
-                                    </div><!-- /.row -->
-                                </td>
-                                <td class="cart-product-quantity">
-                                    <div class="quant-input">
-                                        <div class="arrows">
-                                            <div class="arrow plus gradient"><span class="ir"><i class="icon fa fa-sort-asc"></i></span></div>
-                                            <div class="arrow minus gradient"><span class="ir"><i class="icon fa fa-sort-desc"></i></span></div>
-                                        </div>
-                                        <input type="text" value="1">
-                                    </div>
-                                </td>
-                                <td class="cart-product-sub-total"><span class="cart-sub-total-price">$300.00</span></td>
-                                <td class="cart-product-grand-total"><span class="cart-grand-total-price">$300.00</span></td>
-                            </tr>
-                            <tr>
-                                <td class="romove-item"><a href="#" title="cancel" class="icon"><i class="fa fa-trash-o"></i></a></td>
-                                <td class="cart-image">
-                                    <a class="entry-thumbnail" href="/Colobane_Online/detail">
-                                        <img src="${pageContext.request.contextPath}/assets/images/products/p2.jpg" alt="">
-                                    </a>
-                                </td>
-                                <td class="cart-product-name-info">
-                                    <h4 class='cart-product-description'><a href="/Colobane_Online/detail">Floral Print Buttoned</a></h4>
-                                    <div class="row">
-                                        <div class="col-sm-12">
-                                            <div class="rating rateit-small"></div>
-                                        </div>
-                                        <div class="col-sm-12">
-                                            <div class="reviews">
-                                                (06 Vues)
-                                            </div>
-                                        </div>
-                                    </div><!-- /.row -->
-                                    <div class="cart-product-info"></div>
-                                </td>
-                                <td class="cart-product-quantity">
-                                    <div class="cart-quantity">
-                                        <div class="quant-input">
-                                            <div class="arrows">
-                                                <div class="arrow plus gradient"><span class="ir"><i class="icon fa fa-sort-asc"></i></span></div>
-                                                <div class="arrow minus gradient"><span class="ir"><i class="icon fa fa-sort-desc"></i></span></div>
-                                            </div>
-                                            <input type="text" value="1">
-                                        </div>
-                                    </div>
-                                </td>
-                                <td class="cart-product-sub-total"><span class="cart-sub-total-price">$300.00</span></td>
-                                <td class="cart-product-grand-total"><span class="cart-grand-total-price">$300.00</span></td>
-                            </tr>
-                            </tbody><!-- /tbody -->
+                            	<c:choose>
+                            		<c:when test="${len > 0}">
+                            			<c:forEach items="${articles}" var="article" varStatus="status">
+                            				<tr>
+			                                <td class="romove-item"><a href="/ColobaneOnline/order?remove=${article.idArticle}" title="cancel" class="icon"><i class="fa fa-trash-o"></i></a></td>
+			                                <td class="cart-image">
+			                                    <a class="entry-thumbnail" href="/Colobane_Online/detail?id=${article.idArticle}">
+			                                        <img src="${article.image}" alt="">
+			                                    </a>
+			                                </td>
+			                                <td class="cart-product-name-info">
+			                                    <h4 class='cart-product-description'><a href="/Colobane_Online/detail">${article.nomArticle}</a></h4>
+			                                    <div class="row">
+			                                        <div class="col-sm-12">
+			                                            <div class="rating rateit-small"></div>
+			                                        </div>
+			                                        <div class="col-sm-12">
+			                                            <div class="reviews">
+			                                                (06 Reviews)
+			                                            </div>
+			                                        </div>
+			                                    </div><!-- /.row -->
+			                                </td>
+			                                <td class="cart-product-quantity">
+			                                    <div class="quant-input">
+			                                        <div class="arrows">
+			                                            <div class="arrow plus gradient"><span class="ir"><i class="icon fa fa-sort-asc"></i></span></div>
+			                                            <div class="arrow minus gradient"><span class="ir"><i class="icon fa fa-sort-desc"></i></span></div>
+			                                        </div>
+			                                        <input type="text" value="${dup[article]}" disabled>
+			                                    </div>
+			                                </td>
+			                                <td class="cart-product-sub-total"><span class="cart-sub-total-price">${article.prix}</span></td>
+			                                <td class="cart-product-grand-total"><span class="cart-grand-total-price">${article.prix * dup[article]}</span></td>
+			                            </tr>
+                            			</c:forEach>
+                            		</c:when>
+                            		<c:otherwise>
+                            			<h1>Aucun Article Dans Le Panier</h1>
+                            		</c:otherwise>
+                            	</c:choose>
+			                </tbody><!-- /tbody -->
 
                             <tfoot>
                             <tr>
                                 <td colspan="7">
                                     <div class="shopping-cart-btn">
 							<span class="">
-								<a href="/Colobane_Online/" class="btn btn-upper btn-primary outer-left-xs">Continuer Achats</a>
+								<a href="/ColobaneOnline/" class="btn btn-upper btn-primary outer-left-xs">Continuer Achats</a>
 								<a href="#" class="btn btn-upper btn-primary pull-right outer-right-xs">Mettre à jour le Panier</a>
 							</span>
                                     </div><!-- /.shopping-cart-btn -->
@@ -148,7 +122,7 @@
                                     <input type="text" class="form-control unicase-form-control text-input" placeholder="You Coupon..">
                                 </div>
                                 <div class="clearfix pull-right">
-                                    <button type="submit" class="btn-upper btn btn-primary">APPLY COUPON</button>
+                                    <button type="submit" class="btn-upper btn btn-primary disabled">APPLY COUPON</button>
                                 </div>
                             </td>
                         </tr>
@@ -165,11 +139,8 @@
                         <thead>
                         <tr>
                             <th>
-                                <div class="cart-sub-total">
-                                    Total<span class="inner-left-md">$600.00</span>
-                                </div>
                                 <div class="cart-grand-total">
-                                    Somme Finale<span class="inner-left-md">$600.00</span>
+                                    Somme Finale<span class="inner-left-md">${price }</span>
                                 </div>
                             </th>
                         </tr>
@@ -178,7 +149,7 @@
                         <tr>
                             <td>
                                 <div class="cart-checkout-btn pull-right">
-                                    <button type="submit" class="btn btn-primary checkout-btn">PASSER UNE COMMANDER</button>
+                                    <a type="submit" class="btn btn-primary checkout-btn" href="/ColobaneOnline/order?push=jkl">PASSER UNE COMMANDER</a>
                                     <p><span class="">Paiement CASH à la livraison!</span></p>
                                 </div>
                             </td>

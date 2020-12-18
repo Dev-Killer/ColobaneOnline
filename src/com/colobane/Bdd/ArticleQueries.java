@@ -41,9 +41,9 @@ public class ArticleQueries {
 
 	}
 
-	public List<Article> getAllArticlesList() {
-		String query = "SELECT * from article;";
-		List<Article> articles = new ArrayList<Article>();
+	public Article getArticle(String id) {
+		String query = "SELECT * from article where ID_ARTICLE = "+id+";";
+		Article articles = new Article();
 		Statement stmt;
 		try {
 			stmt = con.createStatement();
@@ -58,8 +58,9 @@ public class ArticleQueries {
 				String categorie = rs.getString("TYPE_CATEGORIE");
 				Date dateCreation = rs.getDate("DATE_CREATION");
 
-				articles.add(new Article(idArticle, nomArticle, image, prix, description, quantite, categorie,
-						dateCreation));
+				Article item = new Article(idArticle, nomArticle, image, prix, description, quantite, categorie,
+						dateCreation);
+				articles = item;
 			}
 			rs.close();
 		} catch (SQLException e) {

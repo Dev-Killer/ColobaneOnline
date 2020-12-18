@@ -14,6 +14,10 @@ public class Article {
 	
 	
 
+	public Article() {
+		
+	}
+
 	public Article(int idArticle, String nomArticle, String image, Float prix, String description, int quantite,
 			String categorie, Date dateCreation) {
 		this.idArticle = idArticle;

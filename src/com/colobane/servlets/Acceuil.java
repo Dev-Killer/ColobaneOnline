@@ -52,26 +52,35 @@ public class Acceuil extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		String action = request.getParameter("action");
+		String idP = request.getParameter("param1");
+		CartController cartController = new CartController();
+		String cart = null;
+		int rep = 0;
 		switch (action) {
 		case "ajax":
-			String idP = request.getParameter("param1");
-			CartController cartController = new CartController();
-			String cart = cartController.getCookieValue(request, "cart");   
+			cart = cartController.getCookieValue(request, "cart");   
 			cart = cartController.cartListString(cart, idP);
 			Cookie cookie = new Cookie("cart", cart);
 			cookie.setMaxAge(60 * 60 * 24 * 365);
 			response.addCookie(cookie);
-			int rep = cartController.cartSize(cart);
+			rep = cartController.cartSize(cart);
+			response.getWriter().println(rep);
+			break;
+		case "ajax1":
+			int numItem = Integer.parseInt(request.getParameter("param2"));
+			cart = cartController.getCookieValue(request, "cart");   
+			for (int i = 0; i < numItem; i++) { 
+				cart = cartController.cartListString(cart, idP);
+			}
+			Cookie cookie1 = new Cookie("cart", cart);
+			cookie1.setMaxAge(60 * 60 * 24 * 365);
+			response.addCookie(cookie1);
+			rep = cartController.cartSize(cart);
 			response.getWriter().println(rep);
 			break;
 
 		default:
-			ArticleQueries articleQueries = new ArticleQueries();
-
-			List<Article> articles = new ArrayList<Article>();
-			articles = articleQueries.getAllArticlesList();
-			request.setAttribute("articles", articles);
-
+			
 			this.getServletContext().getRequestDispatcher(VUE).forward(request, response);
 		}
 	}
